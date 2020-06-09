@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="array-list" type="array-listType"/>
+    <xs:complexType name="lexical-unitType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="id" use="optional"/>
+                <xs:attribute type="xs:string" name="name" use="optional"/>
+                <xs:attribute type="xs:string" name="pos" use="optional"/>
+                <xs:attribute type="xs:string" name="tagcount" use="optional"/>
+                <xs:attribute type="xs:string" name="domain" use="optional"/>
+                <xs:attribute type="xs:string" name="desc" use="optional"/>
+                <xs:attribute type="xs:string" name="workstate" use="optional"/>
+                <xs:attribute type="xs:string" name="source" use="optional"/>
+                <xs:attribute type="xs:string" name="variant" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="array-listType">
+        <xs:sequence>
+            <xs:element type="lexical-unitType" name="lexical-unit" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="owner"/>
+        <xs:attribute type="xs:string" name="date"/>
+        <xs:attribute type="xs:string" name="version"/>
+    </xs:complexType>
+</xs:schema>
