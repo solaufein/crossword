@@ -2,6 +2,7 @@ package com.example.crossword.data.source;
 
 import com.example.crossword.data.utils.QuestionParser;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -30,6 +31,8 @@ public class DictionaryReader {
                     .getWords()
                     .stream()
                     .filter(this::havingQuestion)
+                    .filter(this::havingAtLeastTwoLetters)
+                    .filter(this::havingOnlyLetters)
                     .collect(Collectors.toList());
             log.info("read: {} words from: {}", words.size(), dictionaryFilePath);
             return words;
@@ -39,13 +42,21 @@ public class DictionaryReader {
         }
     }
 
-    private boolean havingQuestion(Word word) {
-        return QuestionParser.hasQuestion(word.getDesc());
-    }
-
     private Dictionary readDictionary() throws JAXBException {
         return (Dictionary) JAXBContext.newInstance(Dictionary.class)
                 .createUnmarshaller()
                 .unmarshal(new File(dictionaryFilePath));
+    }
+
+    private boolean havingQuestion(Word word) {
+        return QuestionParser.hasQuestion(word.getDesc());
+    }
+
+    private boolean havingAtLeastTwoLetters(Word word) {
+        return word.getName().length() > 1;
+    }
+
+    private boolean havingOnlyLetters(Word word) {
+        return StringUtils.isAlpha(word.getName());
     }
 }

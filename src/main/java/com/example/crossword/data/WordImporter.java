@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -27,16 +28,17 @@ public class WordImporter implements CommandLineRunner {
     public void run(String... args) {
         if (wordService.isImportNeeded()) {
             List<Word> words = dictionaryReader.readWords();
-            List<WordEntity> wordEntities = mapToEntities(words);
+            List<WordEntity> wordEntities = mapToEntitiesSorted(words);
             wordService.saveBatch(wordEntities);
         } else {
             log.info("skip importing data");
         }
     }
 
-    private List<WordEntity> mapToEntities(List<Word> words) {
+    private List<WordEntity> mapToEntitiesSorted(List<Word> words) {
         return words.stream()
                 .map(this::mapToEntity)
+                .sorted(Comparator.comparing(WordEntity::getTotalLetters).reversed())
                 .collect(Collectors.toList());
     }
 

@@ -10,11 +10,12 @@ public final class QuestionParser {
     }
 
     public static boolean hasQuestion(String description) {
-        String question = StringUtils.substringBetween(description, "##D:", ".");
+        String question = getQuestion(description);
         return question != null && !question.isBlank();
     }
 
     public static String getQuestion(String description) {
-        return StringUtils.substringBetween(description, "##D:", ".");
+        String question = StringUtils.substringBetween(description, "##D:", ".");
+        return question == null ? null : question.trim();
     }
 }

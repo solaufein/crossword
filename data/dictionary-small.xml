@@ -415,4 +415,1562 @@
                   tagcount="0" domain="jak"
                   desc="##K: og. ##D: taki, którego nominał wynosi tysiąc złotych."
                   workstate="Znaczenie" source="użytkownika" variant="1"/>
+    <lexical-unit id="7077553" name="pozbaczać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: pozmieniać dotyczasowy sposób działania, zdążania do celu. [##P: Warto niekiedy pozbaczać z utartych ścieżek rozwoju.]"
+                  workstate="Nowy" source="użytkownika" variant="5"/>
+    <lexical-unit id="7077522" name="pozbaczać" pos="czasownik"
+                  tagcount="0" domain="cdel"
+                  desc="##K: og. ##D: przez jakiś czas nie trzymać się wybranego tematu, wątku. [##P: Lubię sobie pozbaczać z tematu, przelewając luźne myśli na papier.]"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7077541" name="pozbaczać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: wiele razy, o wielu podmiotach: zmieniać obrany kierunek poruszania się. [##P: Nie wiem, ile razy pozbaczałem ze szlaku.]"
+                  workstate="Nowy" source="użytkownika" variant="2"/>
+    <lexical-unit id="7077542" name="pozbaczać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: pozmieniać temat wymiany zdań lub wypowiedzi. [##P: Profesor pozbaczał z tematu milion razy.]"
+                  workstate="Nowy" source="użytkownika" variant="3"/>
+    <lexical-unit id="7077551" name="pozbaczać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: przenośnie poschodzić, poodchodzić od czegoś; pozmieniać przedmiot. [##P: Rozmowy na pewno pozbaczają na kwestie polityki lub odżywiania – nie  wiadomo, co gorsze.]"
+                  workstate="Nowy" source="użytkownika" variant="4"/>
+    <lexical-unit id="18641" name="pozbawiać" pos="czasownik"
+                  tagcount="0" domain="cpos" desc="brak danych &lt;##VLC: CZ>"
+                  workstate="Błąd" source="użytkownika" variant="1"/>
+    <lexical-unit id="7074142" name="pozbawiać" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="np. pozbawiać znaczenia, pozbawiać koloru"
+                  workstate="Znaczenie" source="użytkownika" variant="2"/>
+    <lexical-unit id="708599" name="pozbawiać się" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: tracić coś przez swoje umyślne lub nieumyślne działanie. [##P: Wykłócając się ciągle z szefem, pozbawiasz się szansy na awans.] &lt;##DD> &lt;##VLC: ZD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="115033" name="pozbawianie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="6313" name="pozbawić" pos="czasownik"
+                  tagcount="1354" domain="cpos" desc="brak danych &lt;##VLC: AK>"
+                  workstate="Błąd" source="systemowy" variant="1"/>
+    <lexical-unit id="7074143" name="pozbawić" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="np. Rozgotowanie potrawy pozbawi ją smaku"
+                  workstate="Znaczenie" source="użytkownika" variant="2"/>
+    <lexical-unit id="708600" name="pozbawić się" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: stracić coś przez swoje umyślne lub nieumyślne działanie. [##P: Rezygnując z udziału w głosowaniu pozbawiłeś się możliwości wpłynięcia na przyszłość całej grupy.] &lt;##DD> &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="80541" name="pozbawić życia" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="brak danych &lt;##nDD> &lt;##VLC: AK>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="128224" name="pozbawienie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="38881" name="pozbawienie wolności"
+                  pos="rzeczownik" tagcount="0" domain="czas"
+                  desc="##K: og. ##D: jeden z najpowszechniejszych rodzajów kar polegający na przymusowym umieszczeniu skazanej osoby na określony czas w zamkniętym i strzeżonym zakładzie karnym. [##P: Został skazany na dziesięć lat pozbawienia wolności, po ośmiu wyszedł za dobre sprawowanie.] {##L: http://pl.wikipedia.org/wiki/Pozbawienie_wolno%C5%9Bci} &lt;##DD> &lt;##REF: EPWN>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="138450" name="pozbawienie życia" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="81481" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: zgromadzić, zasięgnąć wiedzy, wchłonąć wrażenia zwykle z różnych źródeł. [##P: Pozbierałam trochę informacji o tym ośrodku.] [##P: Trochę się jeszcze pozbiera podobnych przykładów.] &lt;##VLC: DZd>"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="81482" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="##K: og. ##D: chwycić i podnieść gromadząc wiele podobnych rzeczy. [##P: Chwilę zajęło, zanim pozbierała rozrzucone rzeczy.] [##P: Pozbierała po lekcji flety od dzieci.] &lt;##VLC: DZd>"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="81483" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: zebrać, zwołać ludzi. [##P: Pozbieraj pozostałe dzieci, już się robi ciemno.] [##P: Dość szybko pozbierał ekipę chętnych do sprzątania w kościele.] &lt;##VLC: DZd>"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7076292" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="cdel"
+                  desc="##K: og. ##D: zajmować się przez jakiś czas zbieraniem - gromadzeniem zwykle rzeczy materialnych, tworzeniem zbioru czegoś. [##P: Pozbierał trochę tych znaczków, ale szybko się znudził i oddał kolekcję bratu.]"
+                  workstate="Nowy" source="użytkownika" variant="4"/>
+    <lexical-unit id="7076293" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: og. ##D: przeprowadzić zbiory, pozyskać jakiś surowiec naturalny poprzez zrywanie albo obcinanie owoców, liści, kwiatów, łodyg, całych roślin, grzybów lub poprzez wykopywanie ich podziemnych części. [##P: Wcześnie w tym roku pozbieraliśmy kukurydzę.]"
+                  workstate="Nowy" source="użytkownika" variant="5"/>
+    <lexical-unit id="7076294" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="##K: og. ##D: ułożyć, złapać coś ciasno i zabezpieczyć w tej pozycji. [##P: Mama pozbierała dół spódnicy w falbany.]"
+                  workstate="Nowy" source="użytkownika" variant="6"/>
+    <lexical-unit id="7076295" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: zebrać od wielu osób, dostać, otrzymać w jakiejś formie świadectwa czyjejś oceny, opinii. [##P: Miała głównie słabe oceny, choć pozbierała też trochę czwórek i piątek.] [##P: Pozbierał burę najpierw od ojca, potem od dziadka i na końcu od ciotki.] [##P: Po premierze film pozbierał mało entuzjastyczne recenzje, ale dziesięć lat później zyskał status kultowego.]"
+                  workstate="Nowy" source="użytkownika" variant="7"/>
+    <lexical-unit id="7076296" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: og. ##D: zgromadzić, przeprowadzić zbiórkę czegoś. [##P: Pozbieraliśmy trochę artykułów papierniczych, chcielibyśmy je przekazać dzieciom z domu dziecka.]"
+                  workstate="Nowy" source="użytkownika" variant="8"/>
+    <lexical-unit id="7076297" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="##K: og. ##D: zgromadzić na sobie, przyciągnąć wiele czegoś. [##P: Nie zrozum mnie źle, ładny jest ten mebelek, ale pozbiera trochę kurzu ozdabiając twój pokój i ci się znudzi.]"
+                  workstate="Nowy" source="użytkownika" variant="9"/>
+    <lexical-unit id="7076298" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: pot. ##D: zgromadzić zazwyczaj fundusze, oszczędzić. [##P: Pozbierał na ten zestaw klocków z własnego kieszonkowego.]"
+                  workstate="Nowy" source="użytkownika" variant="10"/>
+    <lexical-unit id="7076299" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="cczuj"
+                  desc="##K: książk. ##D: w spokoju uporządkować lub skumulować myśli i uczucia. [##P: Muszę pozbierać myśli.]"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="11"/>
+    <lexical-unit id="7076300" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="##K: og. ##D: zgromadzić, złożyć w jakimś miejscu. [##P: Pozbieraj wszystkie części razem, żeby się nie pogubiły.]"
+                  workstate="Nowy" source="użytkownika" variant="12"/>
+    <lexical-unit id="7076304" name="pozbierać" pos="czasownik"
+                  tagcount="0" domain="pst"
+                  desc="##K: książk. ##D: przechwycić fale. [##P: Żaden wbudowany mikrofon nie pozbiera tak dobrze dźwięku.]"
+                  workstate="Nowy" source="użytkownika" variant="13"/>
+    <lexical-unit id="81484" name="pozbierać myśli" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: dojść do równowagi psychicznej, skupić się, poświęcić trochę czasu na swoje myśli. [##Z: Nie wymagaj ode mnie natychmiastowej odpowiedzi, daj mi pozwbierać myśli.] &lt;##DD> &lt;##VLC: AK>"
+                  workstate="Błąd" source="użytkownika" variant="1"/>
+    <lexical-unit id="71492" name="pozbierać się" pos="czasownik"
+                  tagcount="0" domain="cst"
+                  desc="brak danych &lt;##aDD> &lt;##VLC: PRd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="71495" name="pozbierać się" pos="czasownik"
+                  tagcount="0" domain="cczuj" desc="&lt;##aDD> &lt;##VLC: PRd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="71499" name="pozbierać się" pos="czasownik"
+                  tagcount="0" domain="zmn" desc="&lt;##aDD> &lt;##VLC: PRd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="81485" name="pozbierać siły" pos="czasownik"
+                  tagcount="0" domain="hig"
+                  desc="brak danych &lt;##nDD> &lt;##VLC: DZd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="124470" name="pozbieranie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="zbierając, usunąć, sprzątnąć skądś wiele czegoś, zebrać coś kolejno z wielu miejsc (np. pozbierać porozrzucane rzeczy)"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="129292" name="pozbieranie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="pot. zebrać, zwołać, zgromadzić wiele osób (np. wychowawczyni pozbierała dzieci z boiska)"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="129918" name="pozbieranie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="zbierając, zgromadzić wiele czegoś, zebrać jedno po drugim, z wielu miejsc (np. pozbierać informacje, pozbierać książki po znajomych)"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="127912" name="pozbieranie myśli" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="134252" name="pozbieranie się" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="134595" name="pozbieranie się" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="135514" name="pozbieranie się" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="129881" name="pozbieranie sił" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7076790" name="pozbijać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: książk. ##D: poobalać, poutrącać; udowodnić, wykazać bezzasadność wielu rzeczy. [##P: Myślał, że pozbijał argumenty przeciwników.]"
+                  workstate="Nowy" source="użytkownika" variant="2"/>
+    <lexical-unit id="7076789" name="pozbijać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: poukładać, poumieszczać coś ciasno, ścisnąć, stłoczyć wiele czegoś. [##P: Pozbijał słomę w zgrabne bele.]"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7076791" name="pozbijać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: pot. ##D: w grach: pozbawić przeciwnika wielu kart, pionków, członków drużyny. [##P: Pozbijał jej prawie wszystkie pionki.]"
+                  workstate="Nowy" source="użytkownika" variant="3"/>
+    <lexical-unit id="7076792" name="pozbijać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: zmniejszyć, obniżyć, zredukować wiele czegoś lub wartość jednego czynnika w kilku podejściach. [##P: Pozbijał cukier i cholesterol, wyniki miał już w normie.] [##P: Grunt to żeby pozbijać temperaturę podzespołów.]"
+                  workstate="Nowy" source="użytkownika" variant="4"/>
+    <lexical-unit id="7076793" name="pozbijać" pos="czasownik"
+                  tagcount="0" domain="cwyt"
+                  desc="##K: og. ##D: połączyć w całość elementy, zwykle drewniane. [##P: Wujek naprędce pozbijał krzyżak do choinki.] [##P: Czy mogę tymi gwoździkami pozbijać karmnik?]"
+                  workstate="Nowy" source="użytkownika" variant="5"/>
+    <lexical-unit id="7076794" name="pozbijać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: potłuc, sprawić, że wiele przedmiotów straci integralność, będzie w kawałkach. [##P: Pozbijał wszystkie lampy uliczne po tej stronie Kościuszki.]"
+                  workstate="Nowy" source="użytkownika" variant="6"/>
+    <lexical-unit id="7076795" name="pozbijać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: postrącać, pozbyć się zazwyczaj warstwy czegoś. [##P: Ciekawe, kto mu to pozbijał za dwa tysiące.] [##P: Grad pozbijał, postrącał z drzew liście.]"
+                  workstate="Nowy" source="użytkownika" variant="7"/>
+    <lexical-unit id="7076801" name="pozbijać bąki" pos="czasownik"
+                  tagcount="0" domain="cdel"
+                  desc="##K: pot. ##D: spędzić trochę czasu zbijając bąki - leniąc się, nudząc się, marnując czas. [##P: Trochę pozbijał bąki na jakiejś budowie, gdzie miał płacone za godzinę.]"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7076796" name="pozbijać się" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: o wielu osobach: zgromadzić się, poskupiać się ciasno. [##Reymont: I na izbie dosyć stało narodu, pozbijali się w kupy, jak komu i z kim było do upodoby, poredzali głośno i zabawiali się niezgorzej kieliszkami.]"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7076797" name="pozbijać się" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: o wielu obiektach: zostać ułożonym, umieszczonym ciasno, ściśniętym, stłoczonym. [##Sienkiewicz: Zaledwie pierwszy brzask rozpraszał ciemności; dzień zapowiadał się pogodnie; chmury pozbijały się w długie taśmy i pasma na zachodzie, ale wschód był czysty; na blednącym zwolna niebie migotały niepoprzesłaniane oparami gwiazdy.]"
+                  workstate="Nowy" source="użytkownika" variant="2"/>
+    <lexical-unit id="7076798" name="pozbijać się" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: o wielu obiektach: potłuc się, stracić integralność. [##P: Małe talerzyki od tego serwisu pozbijały się już dawno, do dzisiaj przetrwały może trzy.]"
+                  workstate="Nowy" source="użytkownika" variant="3"/>
+    <lexical-unit id="7076802" name="pozbijać z pantałyku"
+                  pos="czasownik" tagcount="0" domain="cdystr"
+                  desc="##K: pot. ##D: powprowadzać w konsternację, wytrącić z równowagi, pozbawić pewności wiele osób, pozbijać z tropu. [##P: Surowa reprymenda pozbijała wszystkich z pantałyku.]"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7076803" name="pozbijać z tropu" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="[##P: Tymi pytaniami o gwintowanie pozbijał nas z tropu.]"
+                  workstate="Znaczenie" source="użytkownika" variant="1"/>
+    <lexical-unit id="137766" name="pozbycie się" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="137902" name="pozbycie się" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="637148" name="pozbycie się" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="##K: og. ##D: usunięcie, spowodowanie, że czegoś nie ma. [##P: Najlepszym sposobem na pozbycie się gorzkiego posmaku brukselki jest jej krótkie gotowanie.] &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="6325" name="pozbyć się" pos="czasownik"
+                  tagcount="286" domain="cpos"
+                  desc="##K: og. ##D: zrobić coś z czymś - sprzedać, oddać, wyrzucić itp. - tak, że się tego już nie ma. [##W: Wiele zeznań pokrywa się - w nocy słyszano wyraźny plusk za burtą, co mogło oznaczać tylko jedno - morderca pozbył się pistoletu.] &lt;##aDD> &lt;##VLC: AK>"
+                  workstate="Częściowo przetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="637142" name="pozbyć się" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: uwolnić się od tego, co przeszkadza, jest niepotrzebne, niepożądane. [##KPWr: Odkładamy łożyska na chwilę, aby pozbyć się nadmiaru oleju.] [##P: Jak chcesz się pozbyć tego swądu, skoro nie ma tu wentylacji?] [##W: Szybko pozbył się dzięki intrygom wpływowych konkurentów, jakimi byli Hans Albrecht von Barfus i Paul von Fuchs.] [##KPWr: Gdy czujecie, że przegrywacie pod naporem przygniatających was problemów i niejasności, staracie się za wszelką cenę ich pozbyć, znaleźć rozwiązanie.] &lt;##aDD> &lt;##VLC: AK, DZd>"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="18643" name="pozbywać się" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: og. ##D: w wyniku różnych działań: sprzadaży, wyrzucenia, oddania, przestawać być posiadaczem czegoś. [##W: Odpady – wszystkie nieprzydatne substancje i przedmioty, których posiadacz pozbywa się, zamierza pozbyć się lub do ich pozbycia się jest obowiązany.] [##W: Klub Alberta zaczął jednak przeżywać kłopoty finansowe i powoli pozbywał się wszystkich najlepszych zawodników.] &lt;##aDD> &lt;##VLC: CZ>"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="73200" name="pozbywać się" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: uwalniać się od tego, co przeszkadza, jest niepotrzebne, niepożądane. [##W: Niestety oddanie Jamiego w ręce psychiatry nie powiodło się – kolega nie pozbywał się nawyku duszenia.] &lt;##aDD> &lt;##VLC: CZ>"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="118422" name="pozbywanie się" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="122339" name="pozbywanie się" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="637150" name="pozbywanie się" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="##K: og. ##D: usuwanie (np. z organizmu, otoczenia), powodowanie, że czegoś nie ma. [##P: Pozbywanie się wydzieliny może trwać bardzo długo.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="81515" name="pozdejmować" pos="czasownik"
+                  tagcount="0" domain="dtk" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142296" name="pozdejmowanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="6326" name="pozdrawiać" pos="czasownik"
+                  tagcount="223" domain="cpor" desc="brak danych &lt;##VLC: CZ>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="121315" name="pozdrawianie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="22825" name="pozdrowić" pos="czasownik"
+                  tagcount="0" domain="cpor" desc="brak danych &lt;##VLC: AK>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="42473" name="pozdrowienia" pos="rzeczownik"
+                  tagcount="0" domain="por" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="138502" name="pozdrowienie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="639191" name="pozdrowienie" pos="rzeczownik"
+                  tagcount="0" domain="por"
+                  desc="##K: og. ##D: wypowiedź, która ma na celu przekazanie miłych słów komuś innemu, jest znakiem życzliwej pamięci. [##P: Serdeczne pozdrowienia z wakacji!]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="94948" name="pozdychać" pos="czasownik"
+                  tagcount="0" domain="zmn" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142342" name="pozdychanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="38366" name="pozer" pos="rzeczownik" tagcount="0"
+                  domain="os"
+                  desc="##K:  ##D: . [##P: ] {##L: }&#xa;##A1: {złość, wstręt; błąd, nieszczęście} - m [Z Maćka to jest pozer, ciągle udaje, że jest kimś zupełnie innym.] ##A2: {złość, wstręt; błąd} - m [To żałosne, że podoba Ci się ten pozer.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="356677" name="pozerka" pos="rzeczownik"
+                  tagcount="0" domain="os" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="366064" name="pozerski" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: . ##D: . [##P: ] {##L: } ##A1: {smutek, złość, wstręt; błąd} - m [Przez swoje pozerskie zachowanie nie miał u mnie szans, bo cenię sobie szczerość.] ##A2: {smutek, złość, wstręt; błąd} - m [Cała ta przemowa była do bólu pozerska i nieprzekonująca.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="62500" name="pozerstwo" pos="rzeczownik"
+                  tagcount="0" domain="cech" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7073887" name="pozestawiać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: poskładać w określoną całość różne elementy, poumieszczać razem. [##P: Pozestawiałeś ze sobą tyle wzorów, że można dostać oczopląsu.]"
+                  workstate="Znaczenie" source="użytkownika" variant="1"/>
+    <lexical-unit id="7076612" name="pozestawiać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: wiele razy, w przypadku wielu podmiotów działania: przedstawić w jednym miejscu różne treści, zaprezentować coś w formie zestawienia. [##P: Pozestawiajmy wyniki w tabelach.]"
+                  workstate="Nowy" source="użytkownika" variant="2"/>
+    <lexical-unit id="7076613" name="pozestawiać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: zdjąwszy skądś większą liczbę elementów, umieścić, postawić je w innym miejscu. [##P: Pozestawiajcie wszystkie niepotrzebne rzeczy z biurek.]"
+                  workstate="Nowy" source="użytkownika" variant="3"/>
+    <lexical-unit id="7076616" name="pozestawiać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: wiele razy, w odniesieniu do wielu wykonawców czynności: zbadać, przyjrzeć się czemuś w celu wykrycia różnic i podobieństw, porównać. [##P: Pozestawiano ze sobą różne wersje tłumaczeń Księgi Psalmów.]"
+                  workstate="Nowy" source="użytkownika" variant="4"/>
+    <lexical-unit id="7076617" name="pozestawiać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: ponastawiać, poskładać kości po złamaniu lub zwichnięciu. [##P: Złamanie rąk to nic strasznego, o ile lekarz dobrze pozestawia kości.]"
+                  workstate="Nowy" source="użytkownika" variant="5"/>
+    <lexical-unit id="98190" name="pozeszywać" pos="czasownik"
+                  tagcount="0" domain="dtk" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="98193" name="pozeszywać" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="scalić wiele rzeczy (np. zszywaczem do papieru) &lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="142217" name="pozeszywanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="scalić wiele rzeczy (np. zszywaczem do papieru)"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="142461" name="pozeszywanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="27681" name="pozew" pos="rzeczownik" tagcount="0"
+                  domain="wytw"
+                  desc="##K: og. ##D: pismo procesowe skierowane do sądu, zawierające wniosek o wszczęcie postępowania i rozpoznanie sprawy; musi spełniać wymogi formalne, zawierać dokładne określenie żądania i uzasadnienie przytaczające okoliczności faktyczne na jego poparcie. [##P: ] {##L: http://pl.wikipedia.org/wiki/Pozew}"
+                  workstate="Znaczenie" source="użytkownika" variant="1"/>
+    <lexical-unit id="7080203" name="pozgarniać" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="97660" name="pozginać" pos="czasownik"
+                  tagcount="0" domain="dtk" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="97661" name="pozginać" pos="czasownik"
+                  tagcount="0" domain="ruch" desc="wiele czegoś &lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="142344" name="pozginanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142392" name="pozginanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="wiele czegoś"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="93249" name="pozgniatać" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="np. wiele kartek &lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="93250" name="pozgniatać się" pos="czasownik"
+                  tagcount="0" domain="zmn" desc="&lt;##aDD> &lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142321" name="pozgniatanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="np. wiele kartek"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142298" name="pozgniatanie się" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="675733" name="pozgonny" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: książk. ##D: taki, który występuje po zgonie. [##P: ] {##L: }"
+                  workstate="Znaczenie" source="użytkownika" variant="2"/>
+    <lexical-unit id="373082" name="pozieleniały" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="o człowieku: np. z bólu ##A1: {smutek; krzywda, brzydota, nieszczęście} - s [Studenci medycyny wychodzili z pierwszych zajęć w prosektorium mocno pozieleniali.] ##A2: {smutek; krzywda, brzydota, nieszczęście} - s [Gdy zobaczyłem jej pozieleniałą twarz, szybko wyprowadziłem ją na zewnątrz, żeby nie zemdlała.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="373083" name="pozieleniały" pos="przymiotnik"
+                  tagcount="0" domain="jak" desc="np. drzewa ##A1: 0 ##A2: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="373084" name="pozieleniały" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="np. wędlina ##A1: {wstręt; nieużyteczność, brzydota} - s [Mój głupi mąż kupił pozieleniałą szynkę.] ##A2: {wstręt; nieużyteczność, brzydota} - s [W lodówce leżał tylko skromny ogryzek pozieleniałej i skurczonej kiełbasy.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="7076598" name="pozielenieć" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: pot. ##D: popsuć się, najczęściej: pokryć się pleśnią. [##P: Wyjął z plecaka zeszłotygodniowe kanapki, które już zdążyły pozielenieć.]"
+                  workstate="Nowy" source="użytkownika" variant="5"/>
+    <lexical-unit id="7074219" name="pozielenieć" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: stać się zielonym lub zieleńszym. [##P: Wszystkie moje majteczki pozieleniały, bo ktoś omyłkowo włożył kolorową koszulkę Maćka do pralki z białym praniem.]"
+                  workstate="Sprawdzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7074220" name="pozielenieć" pos="czasownik"
+                  tagcount="0" domain="pst"
+                  desc="##K: książk. ##D: zabłysnąć zielono, ukazać się i być zielonym. [##P: Mam wrażenie, że coś pozieleniało pomiędzy skałami, to mógł być wąż.]"
+                  workstate="Sprawdzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="7074221" name="pozielenieć" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: zblednąć, stać się bardzo bladym, wręcz zielonym. [##P: Nagle pozieleniał i wybiegł do toalety.]"
+                  workstate="Sprawdzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="7076597" name="pozielenieć" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: zazielenić się, pokryć się, obrosnąć zielenią - roślinnością, liśćmi. [##P: Ściany podwórka pozieleniały po zimie, na nowo obrosły bluszczem.] [##P: Przyszła wiosna i liście pozieleniały na drzewach.]"
+                  workstate="Nowy" source="użytkownika" variant="4"/>
+    <lexical-unit id="657029" name="poziemny" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który ściele się lub płoży się po ziemi. [##P: Poziemny bluszcz szybko przyjął się w nowym miejscu.] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7074198" name="pozierać" pos="czasownik"
+                  tagcount="0" domain="pst"
+                  desc="##K: daw. ##D: co jakiś czas kierować wzrok w stronę kogoś lub czegoś, podglądać z przerwami. [##P: Mężczyzna z ciekawością pozierał na dziecko, które bawiło się przed domem.]"
+                  workstate="Błąd" source="użytkownika" variant="1"/>
+    <lexical-unit id="7074990" name="poziewać" pos="czasownik"
+                  tagcount="0" domain="hig"
+                  desc="##K: książk. ##D: ziewać co jakiś czas. [##Orzeszkowa: Od czasu do czasu szeroko poziewała albo z wyrazem znudzenia i niezadowolenia wydymała bledziutkie wargi.] [##Mickiewicz: Lecz powoli zaczęli drzemać i poziewać; Oko gaśnie za okiem, i cała gromada Kiwa głowami, każdy, gdzie siedział, tam pada: Ten z misą, ten nad kuflem, ten przy wołu ćwierci.] [##Reymont: Ale się nie odezwał, jakby nie rozumiejąc tych skamłań, przeciągał się jeno, poziewał i jął się chyłkiem przebierać kole chałupy ku stodółce, na siano…] [##Słowacki: Nie wiem, nie powiem, że miałam widzenie, Bo widzeń żadnych ani snów nie miewam; Choć często bardzo drzemię i poziewam Łowiąc ustami, jak mówią, skowronka.]"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7074991" name="poziewać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: pot. ##D: ziewnąć wiele razy, spędzić trochę czasu ziewając. [##P: Poziewał, poprzeciągał się chwilę i dziarsko wyszedł spod kołdry.] [##P: Jeszcze trochę poziewam i idę spać.]"
+                  workstate="Nowy" source="użytkownika" variant="2"/>
+    <lexical-unit id="59606" name="poziewnik" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: . [##P: ] {##L:http://pl.wikipedia.org/wiki/Poziewnik}"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="398522" name="poziewnik piaskowy" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj.&#xa;{##L: http://pl.wikipedia.org/wiki/Poziewnik_piaskowy} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="398520" name="poziewnik pstry" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj.&#xa;{##L:http://pl.wikipedia.org/wiki/Poziewnik_pstry} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="398521" name="poziewnik szorstki" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj.&#xa;{##L: http://pl.wikipedia.org/wiki/Poziewnik_szorstki} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="398523" name="poziewnik wielkokwiatowy"
+                  pos="rzeczownik" tagcount="0" domain="rsl"
+                  desc="##K: specj.&#xa;{##L: http://pl.wikipedia.org/wiki/Poziewnik_piaskowy} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="672200" name="pozimowy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który pozostał po zimie. [##W: W naszych bowiem warunkach glebowo-klimatycznych zboża są najlepszymi roślinami wskaźnikowymi, między innymi ze względu na dobre wykorzystanie wody pozimowej zawartej w glebie oraz wierność plonów.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="672197" name="pozimowy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który następuje, występuje, ma miejsce po zimie. [##W: Rzeki są krótkie i wąskie, często przybierają na sile w okresie pozimowych roztopów, zdarza się, iż zakończone są wodospadami spadającymi z wysokich klifów do oceanu.] [##P: Na podwórku już prawie skończyliśmy pozimowe porządki.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="6332" name="poziom" pos="rzeczownik" tagcount="0"
+                  domain="grp"
+                  desc="##K: og. ##D: jeden ze stopni, szczebli, etapów w zhierarchizowanej drabinie, w której następuje rozwój. [##P: Ukończył właśnie trzeci poziom swojej edukacji i mógł cieszyć się wyczekiwanymi wakacjami.] [##P: Nasza drużyna awansowała do trzeciego poziomu rozgrywkowego.] [##P: Startował z poziomu bezdomnego dziecka ulicy, a teraz jest menadżerem firmy.] [##P: Ja i ty - jesteśmy dziś na tym samym poziomie, mamy podobne kompetencje, staż pracy i umiejętności.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="6334" name="poziom" pos="rzeczownik"
+                  tagcount="2829" domain="msc"
+                  desc="##K: og. ##D: piętro, płaszczyzna, która jest kolejną kondygnacją budowli. [##P: Zostawiłem swoje auto na parkingu podziemnym, tylko nie pamiętam czy na pierwszym, czy drugim poziomie...]"
+                  workstate="Nieprzetworzony" source="systemowy" variant="5"/>
+    <lexical-unit id="20879" name="poziom" pos="rzeczownik" tagcount="0"
+                  domain="il"
+                  desc="##K: og. ##D: wysokość, umiejscowienie czegoś (zazwyczaj płaszczyzny) względem jakiegoś punktu. [##P: Poziom wody w tym zbiorniku bardzo się podniósł po ostatnich ulewnych deszczach.] [##P: Cały czas miałam oczy na poziomie jego głowy.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="48881" name="poziom" pos="rzeczownik" tagcount="0"
+                  domain="zwz"
+                  desc="##K: og. ##D: wykładnik czegoś, stopień, pułap, informacja o wielkości, ilości, natężeniu itp. [##P: Ta maszyna została ustawiona na maksymalny poziom swojej efektywności.] [##P: Ilość czerwonych krwinek wciąż utrzymuje się na bardzo niskim poziomie.] [##P: Namawiam go, by zaczął rozwiązywać zadania o wyższym poziomie trudności.] [##P: Udało nam się zbić temperaturę do bezpiecznego poziomu 37,5 stopnia.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="143341" name="poziom" pos="rzeczownik"
+                  tagcount="0" domain="umy"
+                  desc="##K: og. ##D: klasa, jakość kogoś lub czegoś, dostosowanie do czyichś wymagań, stopnia wykształcenia, pochodzenia i czyjegoś obycia kulturalnego lub czyichś możliwości intelektualnych; przynależność do danego kręgu, obiegu zjawisk. [##P: Poziom publikacji w tej gazecie mógłby być wyższy, ostatnio uważam ich artykuły za mało angażujące intelektualnie.] [##P: Andrzej to człowiek na poziomie, zawsze wie, jak się zachować w oficjalnych sytuacjach.] [##P: Słyszałem, że twoje gimnazjum utrzymuje poziom.] [##P: Proszę nie obniżać poziomu dyskusji.] [##P: Nie chcę się wypowiadać na temat poziomu naszych parlamentarzystów, bo raczej nie mam o nich dobrego zdania.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="713098" name="poziom" pos="rzeczownik"
+                  tagcount="0" domain="umy"
+                  desc="##K: og. ##D: aspekt, punkt widzenia. [##P: Z poziomu dziecka rozwód rodziców wygląda zupełnie inaczej.] [##P: Na poziomie metodologicznym ta praca wypada nieźle, jednak muszę w niej wytknąć pewne niedostatki materiałowe.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="7"/>
+    <lexical-unit id="713097" name="poziom" pos="rzeczownik"
+                  tagcount="0" domain="zj"
+                  desc="##K: og. ##D: płaszczyzna prostopadła do kierunku działania siły ciężkości na powierzchni Ziemi lub w jej pobliżu. [##W: W technice (np. w budownictwie) do wyznaczania poziomu służy poziomica.] [##P: Jak skutecznie wyznaczyć poziom sufitu podwieszanego?] [##P: Ta konstrukcja nie trzyma poziomu.] {##L: https://pl.wikipedia.org/wiki/Poziom}"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="713100" name="poziom" pos="rzeczownik"
+                  tagcount="0" domain="wytw"
+                  desc="##K: og. ##D: wyróżnialna, zamknięta część gry komputerowej, element rozwoju jej linearnej akcji. [##P: Nie mogę przejść tego poziomu w Mario. Pomożesz mi?] [##P: Po tym poziomie będzie boss.] [##P: Tematem tego poziomu Tetrisa są kwiaty.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="8"/>
+    <lexical-unit id="713102" name="poziom" pos="rzeczownik"
+                  tagcount="0" domain="il"
+                  desc="##K: środ. ##D: w grach: pewna wyrażona liczbowo ranga (status, wskaźnik), która informuje o tym, jak bardzo rozwinięte, mocne są postaci, przedmioty lub elementy gry. [##P: Pokonałem bossa o pięćdziesiątym poziomie, a wydawało mi się, że moja postać jest na to za słaba.] [##P: Który poziom ma twój Pikachu?] [##P: Mam pauldrony z dwudziestym ósmym poziomem agility.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="9"/>
+    <lexical-unit id="672344" name="poziom ciśnienia akustycznego"
+                  pos="rzeczownik" tagcount="0" domain="il"
+                  desc="##K: specj. ##D: bezwymiarowa wielkość przedstawiona w skali logarytmicznej opisująca stosunek średniego kwadratu ciśnienia akustycznego do tzw. ciśnienia odniesienia. {##L: http://pl.wikipedia.org/wiki/Poziom_ci%C5%9Bnienia_akustycznego}&#xa;&#xa;&lt;##DD>&#xa;&lt;##REF: EPWN>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="672346" name="poziom głośności" pos="rzeczownik"
+                  tagcount="0" domain="il"
+                  desc="##K: specj. ##D: wielkość będąca porównawczą miarą głośności dźwięku w odniesieniu do głośności tonu wzorcowego, wyrażona w fonach. {##L: http://pl.wikipedia.org/wiki/Poziom_g%C5%82o%C5%9Bno%C5%9Bci}&#xa;&#xa;&lt;##DD>&#xa;&lt;##REF: EPWN>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="662708" name="poziom morza" pos="rzeczownik"
+                  tagcount="0" domain="il"
+                  desc="##K: specj. ##D: punkt położony na wysokości teoretycznie równej zeru, w miejscu, gdzie morze styka się z lądem. {##L: http://pl.wikipedia.org/wiki/Poziom_morza} &lt;##DD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="672348" name="poziom natężenia dźwięku"
+                  pos="rzeczownik" tagcount="0" domain="il"
+                  desc="##K: specj. ##D: logarytmiczna miara natężenia dźwięku w stosunku do pewnej umownie przyjętej wartości odniesienia, wyrażana w decybelach. {##L: http://pl.wikipedia.org/wiki/Poziom_nat%C4%99%C5%BCenia_d%C5%BAwi%C4%99ku}&#xa;&#xa;&lt;##DD>&#xa;&lt;##REF: https://books.google.pl/books?id=_po7AQAAIAAJ&amp;q=%22poziom+nat%C4%99%C5%BCenia+d%C5%BAwi%C4%99ku%22&amp;dq=%22poziom+nat%C4%99%C5%BCenia+d%C5%BAwi%C4%99ku%22&amp;hl=pl&amp;sa=X&amp;ei=Tlz4VOiTKar4ywPWjYKIDQ&amp;ved=0CFgQ6AEwCg>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="702808" name="poziom spożycia" pos="rzeczownik"
+                  tagcount="0" domain="il"
+                  desc="##K: specj.&#xa;##D: średnia kaloryczność dziennej porcji pożywienia spożywanej przez daną grupę ludzi.&#xa;[##W: Ze względu na kulturę i narodowość wskaźnik poziomu spożycia zmienia się dla każdego kraju, aczkolwiek dla uogólnienia stosuje się uśredniający podział na dwa rejony świata.]&#xa;{##L: https://pl.wikipedia.org/wiki/Poziom_spożycia}&#xa;&lt;##DD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="52651" name="poziomica" pos="rzeczownik"
+                  tagcount="0" domain="wytw"
+                  desc="##K: specj. ##D: przyrząd pomiarowy z wbudowanymi jedną lub wieloma (wtedy pod różnymi kątami) libellami rurkowymi, wykorzystujący siłę grawitacji ziemskiej do wyznaczania (z niewielką dokładnością) poziomości płaszczyzn (np. podłóg) lub pionowości (np. ścian) w budownictwie. [##P: ] {##L: http://pl.wikipedia.org/wiki/Poziomica}"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="52662" name="poziomica" pos="rzeczownik"
+                  tagcount="0" domain="wytw"
+                  desc="##K: specj. ##D: linia krzywa na mapie łącząca punkty o takiej samej wysokości nad poziomem morza. [##P: .] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="64926" name="poziomica torowa" pos="rzeczownik"
+                  tagcount="0" domain="wytw"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##nDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="685575" name="poziomicowy" pos="przymiotnik"
+                  tagcount="0" domain="rel"
+                  desc="##K: og. ##D: związany z poziomicą, dotyczący poziomicy, pełniący funkcję poziomicy - przyrządu."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="685558" name="poziomicowy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: cechowany przez poziomice, taki, na którym są poziomice, składa się z poziomic - krzywych łączących punkty o tej samej wysokości. [##Ko: mapa poziomicowa]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="685574" name="poziomicowy" pos="przymiotnik"
+                  tagcount="0" domain="rel"
+                  desc="##K: og. ##D: związany z poziomicą (poziomicami), dotyczący poziomicy - krzywej. [##Ko: cięcie poziomicowe]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="53447" name="poziomka" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: Fragaria – rodzaj bylin z rodziny różowatych; liczy ok. 50 gatunków, występujących w Eurazji i Ameryce. [##P: Truskawka to w rzeczywistości mieszaniec dwóch gatunków poziomki z rodziny różowatych.] {##L: http://pl.wikipedia.org/wiki/Poziomka}"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="53449" name="poziomka" pos="rzeczownik"
+                  tagcount="0" domain="jedz"
+                  desc="##K: og. ##D: smaczny owoc (wieloorzeszkowiec) rośliny o tej samej nazwie. [##P: Poszliśmy do lasu nazbierać poziomek, jak zwykle o tej porze lata.] [##P: Poziomka jest mniejsza od truskawki i bardziej od niej aromatyczna.]"
+                  workstate="Znaczenie" source="użytkownika" variant="1"/>
+    <lexical-unit id="396106" name="poziomka" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: og. ##D: roślina z rodzaju Fragaria o jadalnych owocach nazywanych poziomkami. [##P: Co roku planuję posadzić w moim ogródku poziomki, ale obawiam się, że ich owoce nie będą mi smakowały tak, jak te z dziko rosnących krzaczków.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="396109" name="poziomka ananasowa" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. {##L: http://pl.wikipedia.org/wiki/Poziomka_truskawka} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="610791" name="poziomka chilijska" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: Fragaria chiloensis - gatunek rośliny z rodziny różowatych. &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="610795" name="poziomka japońska" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: Fragaria nipponica - gatunek rośliny z rodziny różowatych. &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="610792" name="poziomka meksykańska"
+                  pos="rzeczownik" tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: Fragaria mexicana - gatunek rośliny z rodziny różowatych. &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="610793" name="poziomka nilgerryjska"
+                  pos="rzeczownik" tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: Fragaria nilgerrensis - gatunek rośliny z rodziny różowatych. &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="396037" name="poziomka pospolita" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: Fragaria vesca – gatunek rośliny z rodziny różowatych. [##P: Poziomkę pospolitą stosuje się przy niektórych schorzeniach układu moczowego, nerek i schorzeniach żołądkowych związanych z biegunką.] {##L: http://pl.wikipedia.org/wiki/Poziomka_pospolita} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="396041" name="poziomka Regina" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj.&#xa;{##L: http://pl.wikipedia.org/wiki/Poziomka_Regina} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="396108" name="poziomka truskawka" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. {##L: http://pl.wikipedia.org/wiki/Poziomka_truskawka} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="396043" name="poziomka twardawa" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: Fragaria viridis – gatunek rośliny z rodziny różowatych; rośnie dziko w Azji i Europie. [##P: ] {##L: http://pl.wikipedia.org/wiki/Poziomka_twardawa} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="614442" name="poziomka wielkoowocowa"
+                  pos="rzeczownik" tagcount="0" domain="rsl"
+                  desc="##K: specj. {##L: http://pl.wikipedia.org/wiki/Poziomka_truskawka} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="396045" name="poziomka wirginijska"
+                  pos="rzeczownik" tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: Fragaria virginiana – gatunek rośliny z rodziny różowatych; pochodzi z Ameryki Północnej, rozprzestrzenił się również gdzieniegdzie poza tym obszarem swojego rodzimego występowania. [##P: ] {##L: http://pl.wikipedia.org/wiki/Poziomka_wirginijska} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="396044" name="poziomka wysoka" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: Fragaria moschata – gatunek rośliny z rodziny różowatych; rośnie dziko w południowej, wschodniej i środkowej Europie. [##P: ] {##L: http://pl.wikipedia.org/wiki/Poziomka_wysoka} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="699504" name="poziomkowo" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: og. ##D: w kolorze czerwonym, przypominającym barwę poziomek. [##P: Paznokcie umalowałam na poziomkowo.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="63930" name="poziomkowy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: czerwony, o dość nasyconym kolorze, ale nie jaskrawy, może być złamany różowym lub pomarańczowym, podobny w kolorze do barwy poziomek. [##P: Szminka w kolorze poziomkowym jest dziewczęca, choć ta barwa wciąż jest intensywna, i mniej agresywna niż klasyczna strażacko czerwona.] ##A1: 0 ##A2: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="652612" name="poziomkowy" pos="przymiotnik"
+                  tagcount="0" domain="rel"
+                  desc="##K: og. ##D: związany z poziomkami - owocami. [##P: Martynka sama wyjadła całą poziomkową kobiałkę, tak jej smakowały te owoce.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="355490" name="poziomkowy" pos="przymiotnik"
+                  tagcount="0" domain="rel"
+                  desc="##K: og. ##D: związany z poziomką - rośliną, poziomkami. [##P: Jej oczom ukazała się poziomkowa polana, krzaczków było tak dużo, że zapach owoców i kwiecia prawie zwalił ją z nóg.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="355491" name="poziomkowy" pos="przymiotnik"
+                  tagcount="0" domain="mat"
+                  desc="##K: og. ##D: zrobiony z poziomek, z użyciem poziomek. [##P: Jogurt poziomkowy to rzadkość, dlatego zawsze go kupuję, kiedy taki spotkam.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="652611" name="poziomkowy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który pod względem aromatu przypomina poziomkę.&#xa;##A1: 0 ##A2: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="52653" name="poziomnica" pos="rzeczownik"
+                  tagcount="0" domain="wytw"
+                  desc="##K: specj. ##D: przyrząd pomiarowy z wbudowanymi jedną lub wieloma (wtedy pod różnymi kątami) libellami rurkowymi, wykorzystujący siłę grawitacji ziemskiej do wyznaczania (z niewielką dokładnością) poziomości płaszczyzn (np. podłóg) lub pionowości (np. ścian) w budownictwie. [##P: ] {##L: http://pl.wikipedia.org/wiki/Poziomica}"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="692298" name="poziomo" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: książk. ##D: pospolicie, płasko, przyziemnie. [##P: Drugi, poziomo myślący bliźni, wcale tego nie doceni.]"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="696006" name="poziomo" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: og. ##D: równolegle do powierzchni ziemi lub czasem innej linii albo płaszczyzny, która jest uważana za podobny punkt odniesienia. [##P: Postaw ten karton poziomo, bo inaczej wszystko w środku się poprzewraca.]"
+                  workstate="Nieprzetworzony" source="systemowy" variant="2"/>
+    <lexical-unit id="706688" name="poziomo" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: książk. ##D: przenośnie: na tym samym poziomie w jakiejś hierarchii. [##P: Ekspert do spraw komunikacji ma zbadać przepływ informacji poziomo w naszej firmie.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="379330" name="poziomość" pos="rzeczownik"
+                  tagcount="0" domain="cech" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7069750" name="poziomowo" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: og. ##D: pod względem poziomu - umiejscowienia czegoś względem pewnego punktu odniesienia. [##P: Poziomowo oba koryta rzeki są zbliżone, ale lewe jest przy tym znacznie szersze.]"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7069752" name="poziomowo" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: og. ##D: pod względem poziomu, odnosząc się do poziomu, w kontekście poziomu - klasy, jakości, stopnia dopasowania czegoś do potrzeb i wymogów. [##P: Które liceum jest poziomowo lepsze - dwójka czy dziesiątka?] [##P: Zanim zaczniesz lekcje angielskiego, musisz zrobić test, po którym będziemy wiedzieć, do jakiej grupy pasujesz poziomowo.] [##P: Widać, że to prosta dziewczyna, poziomowo odstaje od swoich wykształconych, mieszkających od urodzenia w mieście koleżanek.] [##P: Nasza grupa na obowiązkowych zajęciach z niemieckiego jest tak zróżnicowana poziomowo, że niczego się nie uczymy, bo naprawde nie ma jak.]"
+                  workstate="Nowy" source="użytkownika" variant="2"/>
+    <lexical-unit id="7069753" name="poziomowo" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: środ. ##D: pod względem poziomu - rangi, klasy postaci, doświadczenia, które wyraża się najczęściej liczbowo. [##P: Mamy zbyt wymieszany poziomowo skład, żeby ukończyć ten run -  wszyscy padniemy przy pierwszym bossie, skoro tylko dwoje z nas ma 70 level.] [##P: Ta lokacja jest dla mnie za niska poziomowo, nie zdobywam już żadnego expa, muszę się teleportować gdzieś dalej.]"
+                  workstate="Nowy" source="użytkownika" variant="3"/>
+    <lexical-unit id="7069755" name="poziomowo" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: og. ##D: równolegle do powierzchni ziemi lub czasem innej linii albo płaszczyzny, która jest uważana za podobny punkt odniesienia. [##P: Oparcie wózka możesz ustawić całkiem poziomowo, żeby dziecko mogło spać na leżąco.] [##P: Biszkopt powinnam przekroić poziomowo na trzy placki, ale jest za niski.]"
+                  workstate="Nowy" source="użytkownika" variant="4"/>
+    <lexical-unit id="7069548" name="poziomowy" pos="przymiotnik"
+                  tagcount="0" domain="rel"
+                  desc="##K: og. ##D: związany z poziomem - piętrem, warstwą czegoś. [##Ko: przecznica poziomowa]"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7069549" name="poziomowy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który ma poziomy - piętra. [##P: Planują tam budowę poziomowego parkingu.]"
+                  workstate="Nowy" source="użytkownika" variant="2"/>
+    <lexical-unit id="7069550" name="poziomowy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który ma poziomy - szczeble w pewnej hierarchii, układzie; mający strukturę złożoną z poziomów. [##W: Bhuwana (trl. bhuvana) – system światów (kosmicznych sfer) w hinduizmie o poziomowym układzie, struktura mistycznych krain istniejących we wszechświecie.]"
+                  workstate="Nowy" source="użytkownika" variant="3"/>
+    <lexical-unit id="22720" name="poziomy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który jest równoległy do powierzchni ziemi lub czasem innej linii albo płaszczyzny, która jest uważana za podobny punkt odniesienia. [##P: Ubrania w poziome paski pogrubiają.] [##Ko: oś pozioma] ##A1: 0 ##A2: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="144470" name="poziomy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: książk. ##D: pospolity, płaski, przyziemny. [##P: Nienawistnie tępią go poziome umysły.] ##A1: {smutek, złość, wstręt; nieużyteczność, niewiedza, błąd} - s [Jej marzenia były poziome i prozaiczne, zależało jej tylko na pieniądzach.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="703803" name="poziomy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: książk. ##D: przenośnie: taki, który zachodzi, ma miejsce na tym samym poziomie w jakiejś hierarchii. [##P: Męczy mnie brak perspektyw w naszej firmie, mogę liczyć wyłącznie na kolejny awans poziomy.] [##P: O fuzji poziomej (horyzontalnej) mówimy, gdy łączące się przedsiębiorstwa produkują podobne produkty w tej samej branży.] [##W: Poziomy transfer genów może prowadzić do powstania nowych gatunków.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="669665" name="poziomy transfer genów"
+                  pos="rzeczownik" tagcount="0" domain="zj"
+                  desc="##K: specj.&#xa;##D: zjawisko przechodzenia genów między organizmami różnych gatunków, najczęściej pozostającymi ze sobą w ścisłej relacji ekologicznej.&#xa;{##L: http://pl.wikipedia.org/wiki/Poziomy_transfer_gen%C3%B3w}&#xa;&lt;##DD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7079267" name="pozjadać" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="661848" name="pozjazdowy" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który ma miejsce po zjeździe, następujący po zjeździe. [##P: Zorganizowano pozjazdowe spotkanie z dziennikarzami, by przedstawić ustalenia, jakie zapadły podczas zjazdu.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="681289" name="pozjednoczeniowy" pos="przymiotnik"
+                  tagcount="0" domain="jak" desc="##K: og."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7072028" name="pozjeżdżać" pos="czasownik"
+                  tagcount="0" domain="cdel"
+                  desc="##K: og. ##D: przez jakiś czas przemieszczać się z góry na dół, jadąc. [##P: Chodził do tego wieżowca, żeby parę razy pozjeżdżać sobie windą.]"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7072029" name="pozjeżdżać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: o wielu obiektach: jadąc, zboczyć z drogi, skręcić, odbić. [##P: Samochody pozjeżdżały na bok, żeby przepuścić karetkę.]"
+                  workstate="Nowy" source="użytkownika" variant="2"/>
+    <lexical-unit id="7072030" name="pozjeżdżać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: o wielu obiektach: jadąc, przybyć gdzieś, przyjechać, zwykle grupowo. [##P: Goście weselni pozjeżdżali do hotelu dzień przed imprezą.]"
+                  workstate="Nowy" source="użytkownika" variant="3"/>
+    <lexical-unit id="7072034" name="pozjeżdżać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: pot. ##D: o wielu obiektach: obsunąć się, zsunąć się. [##P: Po wypiciu mikstury szybko zasnęli, a okulary pozjeżdżały im z nosów.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="7072046" name="pozjeżdżać się" pos="czasownik"
+                  tagcount="0" domain="ruch"
+                  desc="##K: og. ##D: dotrzeć w to samo miejsce, jadąc z różnych kierunków i mając do pokonania różne odległości. [##P: Na ten jubileusz pozjeżdali się ludzie z całego świata.] &lt;##aDD> &lt;##VLC: DZn>"
+                  workstate="Nowy" source="użytkownika" variant="1"/>
+    <lexical-unit id="7076549" name="pozlecać" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="92563" name="pozlepiać" pos="czasownik"
+                  tagcount="0" domain="cwyt" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142395" name="pozlepianie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="74899" name="pozłacać" pos="czasownik"
+                  tagcount="0" domain="zmn" desc="&lt;##VLC: DZn>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="97945" name="pozłacać" pos="czasownik"
+                  tagcount="0" domain="dtk" desc="&lt;##VLC: DZn>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="116832" name="pozłacanie" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="##K: og. ##D: złocenie, wyzłacanie - pokrywanie warstwą złota. [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="132372" name="pozłacanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="371433" name="pozłacany" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, którego powierzchnia jest pokryta (w całości lub częściowo) złotem. [##P: ] {##L: } ##A1: 0 ##A2: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="128895" name="pozłocenie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="pokryć warstwą złota"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="129431" name="pozłocenie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="74915" name="pozłocić" pos="czasownik"
+                  tagcount="0" domain="zmn" desc="&lt;##VLC: DZd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="97947" name="pozłocić" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="pokryć warstwą złota &lt;##VLC: DZd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="698348" name="pozłocisto" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: książk. ##D: w kolorze przypominającym barwę złota. [##P: Jej włosy zalśniły pozłocisto.] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="64329" name="pozłocisty" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: książk. ##D: złoty, przypominający złoto kolorem. [##P: ] {##L: } ##A1: 0 ##A2: 0"
+                  workstate="Znaczenie" source="użytkownika" variant="1"/>
+    <lexical-unit id="46440" name="pozłota" pos="rzeczownik"
+                  tagcount="0" domain="cech"
+                  desc="##K: og. ##D: warstwa złota porywająca inny materiał. [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="663569" name="pozłotek" pos="rzeczownik"
+                  tagcount="0" domain="wytw" desc="##K: daw."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="109584" name="pozłotka" pos="rzeczownik"
+                  tagcount="0" domain="rsl"
+                  desc="##K: specj. ##D: . [##P: ] {##L: http://pl.wikipedia.org/wiki/Poz%C5%82otka}"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="663566" name="pozłotka" pos="rzeczownik"
+                  tagcount="0" domain="sbst"
+                  desc="##K: książk. ##D: cienka - cieńsza niż zwykle - warstewka złota na innym materiale."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="663568" name="pozłotka" pos="rzeczownik"
+                  tagcount="0" domain="wytw"
+                  desc="##K: książk. ##D: cienka błyszcząca folia, nie tylko do owijania czekoladek."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="619618" name="pozłotka kalifornijska"
+                  pos="rzeczownik" tagcount="0" domain="rsl"
+                  desc="##K: specj. {##L: http://pl.wikipedia.org/wiki/Poz%C5%82otka_kalifornijska} &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="663567" name="pozłotko" pos="rzeczownik"
+                  tagcount="0" domain="wytw"
+                  desc="##K: książk. ##D: cienka błyszcząca folia, którą np. owija się czekoladki."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="606511" name="pozłotnictwo" pos="rzeczownik"
+                  tagcount="0" domain="umy"
+                  desc="##K: specj. ##D: rodzaj rzemiosła artystycznego. {##L: http://pl.wikipedia.org/wiki/Poz%C5%82otnictwo}"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="606514" name="pozłotniczy" pos="przymiotnik"
+                  tagcount="0" domain="rel"
+                  desc="##K: specj. ##D: dotyczący pozłotnictwa. [##W: Techniki pozłotnicze rozwijały się wraz z możliwościami uzyskania coraz cieńszej złotej folii i złota w proszku.] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="606513" name="pozłotnik" pos="rzeczownik"
+                  tagcount="0" domain="os"
+                  desc="##K: og. ##D: rzemieślnik, zajmujący się pozłacaniem. [##P: Od XIX wieku powstawały instytucje - cechy pozłotników w Polsce.] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7076320" name="pozmieniać" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="brak danych"
+                  workstate="Znaczenie" source="użytkownika" variant="1"/>
+    <lexical-unit id="7077552" name="pozmieniać" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="2"/>
+    <lexical-unit id="7080121" name="pozmieniać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="[##P: Uważaj, żeby ubrania w praniu nie pozmieniały koloru.]"
+                  workstate="Znaczenie" source="użytkownika" variant="3"/>
+    <lexical-unit id="7079626" name="pozmieniać się" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="7078887" name="pozmniejszać" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="7079625" name="pozmniejszać się" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="6336" name="poznać" pos="czasownik"
+                  tagcount="1901" domain="sp"
+                  desc="przedstawić kogoś komuś, pośredniczyć w poznaniu &lt;##VLC: AK>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="20881" name="poznać" pos="czasownik"
+                  tagcount="1901" domain="cumy"
+                  desc="zdobyć wiadomości, wiedzę o czymś, zrozumieć coś dzięki pozyskanym informacjom &lt;##VLC: DZd>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="3"/>
+    <lexical-unit id="20882" name="poznać" pos="czasownik"
+                  tagcount="1901" domain="cumy"
+                  desc="rozpoznać, zidentyfikować (np. poznał w tym włóczędze Aleksego) &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="4"/>
+    <lexical-unit id="84229" name="poznać" pos="czasownik" tagcount="0"
+                  domain="cumy"
+                  desc="nauczyć się czegoś, przyswoić &lt;##VLC: DZd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="7"/>
+    <lexical-unit id="84234" name="poznać" pos="czasownik" tagcount="0"
+                  domain="cumy"
+                  desc="zrozumieć coś dogłębnie (np. poznać sedno sprawy) &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="84236" name="poznać" pos="czasownik" tagcount="0"
+                  domain="cczuj" desc="zaznać uczucia, stanu &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="84244" name="poznać" pos="czasownik" tagcount="0"
+                  domain="sp"
+                  desc="spotkać kogoś i wejść w znajomość &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="355136" name="poznać" pos="czasownik" tagcount="0"
+                  domain="pst"
+                  desc="spostrzec coś i zrozumieć, odgadnąć coś (np. od razu poznał, że przed chwilą się kłócili) &lt;##VLC: AK>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="8"/>
+    <lexical-unit id="6337" name="poznać się" pos="czasownik"
+                  tagcount="1901" domain="cumy"
+                  desc="##K: og. ##D: zdać sobie sprawę, jaki ktoś jest naprawdę. [##P: Ocenił mnie z góry, zanim się na mnie poznał.] {##L: }  &lt;##aDD> &lt;##VLC: DZd>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="84479" name="poznać się" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: zawrzeć znajomość. [##P: Poznali się w Akademii Tańca - to była miłość od pierwszego wejrzenia.] {##L: } &lt;##aDD> &lt;##VLC: AK, WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="44746" name="poznaniaczka" pos="rzeczownik"
+                  tagcount="0" domain="os"
+                  desc="##K: pot. ##D: mieszkanka Poznania."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="44738" name="poznaniak" pos="rzeczownik"
+                  tagcount="0" domain="os"
+                  desc="##K: pot. ##D: mieszkaniec Poznania."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="380018" name="poznanianin" pos="rzeczownik"
+                  tagcount="0" domain="os"
+                  desc="##K: og. ##D: mieszkaniec Poznania."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="44742" name="poznanianka" pos="rzeczownik"
+                  tagcount="0" domain="os"
+                  desc="##K: og. ##D: mieszkanka Poznania."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="129203" name="poznanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="130825" name="poznanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="np. język obcy"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="7"/>
+    <lexical-unit id="130892" name="poznanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="3"/>
+    <lexical-unit id="136544" name="poznanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="o co chodzi"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="136658" name="poznanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="kogoś"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="136681" name="poznanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="8"/>
+    <lexical-unit id="140838" name="poznanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="141925" name="poznanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="4"/>
+    <lexical-unit id="130803" name="poznanie się" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="na kimś &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="136677" name="poznanie się" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="63315" name="Poznań" pos="rzeczownik" tagcount="0"
+                  domain="msc"
+                  desc="NP ##D: miasto na prawach powiatu w zachodniej Polsce, położone na Pojezierzu Wielkopolskim, nad rzeką Wartą, u ujścia Cybiny. [##W: Patronami miasta Poznania są apostołowie Piotr i Paweł, święci Kościoła katolickiego.] {##L: http://pl.wikipedia.org/wiki/Poznań}"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="648584" name="poznańczyk" pos="rzeczownik"
+                  tagcount="0" domain="os"
+                  desc="##K: daw. ##D: mieszkaniec Poznania."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="63692" name="poznański" pos="przymiotnik"
+                  tagcount="0" domain="rel"
+                  desc="##K: og. ##D: związany z Poznaniem. [##P: Poznański prezydent wygrał w tym roku ponownie i zostanie na drugą kadencję.] ##A1: 0 ##A2: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="714981" name="poznański" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki jak w Poznaniu, właściwy dla Poznania i poznaniaków, kojarzący się z Poznaniem. [##P: Cechuje ją niemal poznańska oszczędność.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="714982" name="poznański" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który pochodzi z Poznania, zakorzeniony w Poznaniu. [##P: Poznańska cytadela jest ciekawie zaprojektowana, odwiedź park i fort, kiedy wybierzesz się do Poznania.] [##P: Znam kilka słów z gwary poznańskiej, bo spotykałam się niegdyś z poznaniakiem.] [##P: Dziś mecz z naszymi zagra poznański Kolejorz.] [##P: Nasze muzeum odwiedzą dzisiaj trzy zorganizowane wycieczki poznańskie.] [##P: Zawsze mi się wydawało, że &quot;tytka&quot; to typowo poznańskie słowo, które nie jest używane nigdzie indziej.]"
+                  workstate="Znaczenie" source="użytkownika" variant="3"/>
+    <lexical-unit id="6340" name="poznawać" pos="czasownik"
+                  tagcount="462" domain="cumy" desc="brak danych &lt;##VLC: DZn>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="20883" name="poznawać" pos="czasownik"
+                  tagcount="462" domain="cumy" desc="brak danych &lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="5"/>
+    <lexical-unit id="84230" name="poznawać" pos="czasownik"
+                  tagcount="0" domain="cumy" desc="np. język obcy &lt;##VLC: DZn>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="84235" name="poznawać" pos="czasownik"
+                  tagcount="0" domain="cumy" desc="o co chodzi &lt;##VLC: ZD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="84238" name="poznawać" pos="czasownik"
+                  tagcount="0" domain="cczuj" desc="&lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="84241" name="poznawać" pos="czasownik"
+                  tagcount="0" domain="sp" desc="&lt;##VLC: CZ>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="7"/>
+    <lexical-unit id="84245" name="poznawać" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="spotykać kogoś i wchodzić w znajomość &lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="84483" name="poznawać" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="zawierać znajomość z kimś &lt;##VLC: CZ, ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="8"/>
+    <lexical-unit id="84481" name="poznawać się" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: zawierać znajomość. [##P: Nawet nie wiesz, ile par poznaje się w internecie!] {##L: } &lt;##aDD> &lt;##VLC: CZ, ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="88813" name="poznawać się" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: zdawać sobie sprawę, jaki ktoś jest naprawdę. [##P: Powoli zaczynam poznawać się na nim, myślałam, że można na nim polegać.] {##L: }  &lt;##aDD> &lt;##VLC: DZn>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="697196" name="poznawalnie" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: książk. ##D: tak, że coś może zostać poznane (w znaczeniu epistemologicznym), jest dostępne poznaniu."
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="711127" name="poznawalnie" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: og. ##D: tak, że coś daje się zauważyć, rozpoznać jako jakieś, jest widoczne. [##P: Nasze miasto powoli, ale poznawalnie staje się coraz piękniejsze.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="57759" name="poznawalność" pos="rzeczownik"
+                  tagcount="0" domain="cech"
+                  desc="##K:  ##D: . [##P: ] {##L: } ##A1: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="354912" name="poznawalny" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który można, który daje się poznać, rozpoznać. ##A1: 0 ##A2: {radość; użyteczność} + s [Bardzo szybko zaczynam orientować się w nowym terenie - zapamiętuję charakterystyczne punkty, a obce miejsca stają się poznawalne.] ##A3: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="143447" name="poznawanie" pos="rzeczownik"
+                  tagcount="0" domain="umy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="9"/>
+    <lexical-unit id="112374" name="poznawanie" pos="rzeczownik"
+                  tagcount="0" domain="st" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="115422" name="poznawanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="7"/>
+    <lexical-unit id="118693" name="poznawanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="o co chodzi"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="122914" name="poznawanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="123346" name="poznawanie" pos="rzeczownik"
+                  tagcount="0" domain="st" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="5"/>
+    <lexical-unit id="123504" name="poznawanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="np. język obcy; brak danych"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="125054" name="poznawanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="kogoś"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="125060" name="poznawanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="zawierać znajomość z kimś"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="8"/>
+    <lexical-unit id="123360" name="poznawanie się" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="125058" name="poznawanie się" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="##K:  ##D: . [##P: ] {##L: } &lt;##aDD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="690374" name="poznawczo" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: og. ##D: jeśli chodzi o poznanie, pod względem poznawczym."
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="378260" name="poznawczość" pos="rzeczownik"
+                  tagcount="0" domain="cech"
+                  desc="##K:  ##D: . [##P: ] {##L: }&#xa;##A1: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="6341" name="poznawczy" pos="przymiotnik"
+                  tagcount="0" domain="rel"
+                  desc="##K: og. ##D: taki, który związany jest z poznaniem. ##A1: 0 ##A2: 0"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="97598" name="poznikać" pos="czasownik"
+                  tagcount="0" domain="pst" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="97600" name="poznikać" pos="czasownik"
+                  tagcount="0" domain="ruch" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="97601" name="poznikać" pos="czasownik"
+                  tagcount="0" domain="pst"
+                  desc="o wielu: zdematerializować się (np. z wielu artykułów poznikała historia edycji) &lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142291" name="poznikanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="142443" name="poznikanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="o wielu: zdematerializować się (np. z wielu artykułów poznikała historia edycji)"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142454" name="poznikanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="47334" name="pozoracja" pos="rzeczownik"
+                  tagcount="0" domain="zwz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="59062" name="pozoracja" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="646624" name="pozoracyjny" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##A1: {smutek, złość, wstręt; niewiedza, błąd} - s [To były działania jedynie pozoracyjne, mające na celu zakryć różne braki.] ##A2: {smutek, złość, wstręt; błąd} - s [Zwolniłam się, bo ta firma była szemrana, na co wskazywały pozoracyjne działania szefostwa.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="673006" name="pozorancki" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: mający na celu stworzenie pewnego wrażenia, będący pozorem czegoś. [##P: Te pozoranckie działania i rozpaczliwe wyjaśnienia pod koniec miesiąca nie zmienią faktu, że wasz dział nie wykonał zleconych zadań.] ##A1: {smutek, złość, wstręt; błąd} - s [Umizgi prezesa wobec wizytatorki były zachowaniem pozoranckim.] ##A2: {smutek, złość, wstręt; błąd} - s [Weź się do roboty, bo przez twoje pozoranckie działania firma przynosi straty.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="59060" name="pozoranctwo" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="60470" name="pozorant" pos="rzeczownik"
+                  tagcount="0" domain="os"
+                  desc="##K: og. ##D: oszust, ktoś, kto udaje. [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="357367" name="pozorantka" pos="rzeczownik"
+                  tagcount="0" domain="os" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="690377" name="pozornie" pos="przysłówek"
+                  tagcount="0" domain="adv"
+                  desc="##K: og. ##D: z pozoru, złudnie, niezgodnie z rzeczywistością. [##P: On tylko pozornie wygląda na spokojnego.] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="56627" name="pozorność" pos="rzeczownik"
+                  tagcount="0" domain="cech"
+                  desc="##K:  ##D: . [##P: ] {##L: } ##A1: {smutek, złość, wstręt; nieużyteczność, krzywda, błąd} - s  [Brzydzę się pozornością ich pomocy!]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="6346" name="pozorny" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który sprawia jakieś pozory, w rzeczywistości jest inny niż się wydaje. [##P: Starała się wytłumaczyć mu sytuację z pozornym spokojem.] ##A1: {smutek, złość; nieużyteczność, niewiedza, błąd} - s [Wygrana w wyborach była dla niego pozorną satysfakcją, on dążył do całkowitego przejęcia władzy.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="626285" name="pozorny nadmiar mineralokortykoidów"
+                  pos="rzeczownik" tagcount="0" domain="prc"
+                  desc="##K: specj. {##L: http://pl.wikipedia.org/wiki/Pozorny_nadmiar_mineralokortykoid%C3%B3w} &lt;##DD> &lt;##REF: https://journals.viamedica.pl/arterial_hypertension/article/download/19399/15274> &lt;##REF: http://www.ptendo.org.pl/arch/04_4_r.pdf>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="89855" name="pozorować" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="tworzyć pozory czegoś, udawać &lt;##VLC: CZ>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="121476" name="pozorowanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="tworzyć pozory czegoś, udawać"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="6347" name="pozostać" pos="czasownik"
+                  tagcount="2034" domain="cst"
+                  desc="o osobach lub rzeczach: zachować jakiś stan, cechy, zostać w jakiejś sytuacji, położeniu (np. pozostać wiernym, pozostać gdzieś do końca roku) &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="77654" name="pozostać" pos="czasownik"
+                  tagcount="0" domain="cst"
+                  desc="nie ruszyć się skądś, nie opuścić jakiegoś miejsca &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="81826" name="pozostać" pos="czasownik"
+                  tagcount="0" domain="cst" desc="stać się resztą &lt;##VLC: AK>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="81827" name="pozostać" pos="czasownik"
+                  tagcount="0" domain="cst"
+                  desc="zostać jako spadek, spuścizna &lt;##VLC: AK>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="81828" name="pozostać" pos="czasownik"
+                  tagcount="0" domain="cst"
+                  desc="zostać przy życiu po czyjejś śmierci &lt;##VLC: PER>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="7076237" name="pozostać" pos="czasownik"
+                  tagcount="0" domain="pst" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="6"/>
+    <lexical-unit id="72951" name="pozostać w sprzeczności"
+                  pos="czasownik" tagcount="0" domain="cst"
+                  desc="brak danych &lt;##nDD> &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="6354" name="pozostałość" pos="rzeczownik"
+                  tagcount="0" domain="zj"
+                  desc="##K: og. ##D: to, co powstało w wyniku oddziaływania jakiegoś zjawiska, pozostało i jest trwałym dowodem na zaistnienie tego zjawiska."
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="18305" name="pozostałość" pos="rzeczownik"
+                  tagcount="0" domain="rz"
+                  desc="##K: og. ##D: to, co zostaje z większej całości. [##W: Mgławice będące pozostałością po wybuchu supernowej są stosunkowo bogate w pierwiastki cięższe od żelaza, które powstają w końcowym etapie życia gwiazdy i podczas wybuchu.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="6356" name="pozostały" pos="przymiotnik"
+                  tagcount="2127" domain="jak"
+                  desc="##K: og. ##D: taki, który pozostał, był zostawiony, stał się pamiątką po kimś lub czymś; imiesłów przymiotnikowy przeszły czynny. [##P: W końcu pozbyłam się mebli pozostałych po poprzednich lokatorach.] [##P: Mam jeszcze kilka szpargałów pozostałych po babci, mogę się z tobą podzielić, żebyś też miała pamiątkę.]"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="379243" name="pozostały" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: inny, ten, o którym nie mówiono do tej pory lub który nie brał udziału w jakiejś czynności; także: taki, który istnieje obok czegoś ważniejszego. [##P: Dwóch uczestników zabawy zaprosił na scenę, a pozostałe osoby prosił o doping.] [##P: Według mnie kolor fioletowy jest ładniejszy od wszystkich pozostałych.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="670714" name="pozostały" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który pozostał, został, stał się resztą; imiesłów przymiotnikowy przeszły czynny. [##P: Pozostałą część materiału przerobimy po powrocie z ferii zimowych.] [##P: Żeby ta końcówka pozostałego keczupu dała się użyć, należy butelkę postawić na zakrętce.] ##A1: 0 ##A2: 0"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="711405" name="pozostały" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który pozostał, nie ruszył się skądś, nie opuścił jakiegoś miejsca; imiesłów przymiotnikowy przeszły czynny. [##P: Spośród moich znajomych pozostałych w kraju wielu nie ma pracy.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="711406" name="pozostały" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który pozostał w jakimś stanie, zachował go na dłużej; imiesłów przymiotnikowy przeszły czynny. [##P: Obserwuje się postępującą hydratację cementu pozostałego w stanie niezwiązanym po stwardnieniu betonu.] [##P: Pozostali przy życiu mieszkańcy wioski mogą uważać swoje ocalenie za cud.] [##P: Codziennie opowiadał jedną historię pozostałemu w śpiączce po ciężkim wypadku chłopcu.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="711407" name="pozostały" pos="przymiotnik"
+                  tagcount="0" domain="jak"
+                  desc="##K: og. ##D: taki, który pozostał przy życiu po czyjejś śmierci; imiesłów przymiotnikowy przeszły czynny. [##P: Jeżeli brat zmarł przed ojcem należy przy dziedziczeniu uwzględnić pozostałe po jego śmierci dzieci, jeżeli zmarłby po ojcu, prawo do dziedziczenia będzie miała także żona brata.]"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="126728" name="pozostanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="nie ruszyć się skądś, nie opuścić jakiegoś miejsca"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="135474" name="pozostanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="o osobach lub rzeczach: zachować jakiś stan, cechy, zostać w jakiejś sytuacji, położeniu (np. pozostać wiernym, pozostać gdzieś do końca roku)"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="138126" name="pozostanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="stać się resztą"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="138131" name="pozostanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="zostać jako spadek, spuścizna"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="142794" name="pozostanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="zostać przy życiu po czyjejś śmierci"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="141751" name="pozostanie w sprzeczności"
+                  pos="rzeczownik" tagcount="0" domain="zdarz"
+                  desc="##K:  ##D: . [##P: ] {##L: }" workstate="Nieprzetworzony"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="6350" name="pozostawać" pos="czasownik"
+                  tagcount="1845" domain="cst"
+                  desc="o osobach lub rzeczach: zachować jakiś stan, cechy, zostać w jakiejś sytuacji, położeniu (np. pozostawać wiernym, pozostawać gdzieś do końca roku) &lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="77652" name="pozostawać" pos="czasownik"
+                  tagcount="0" domain="cst"
+                  desc="nie opuszczać jakiegoś miejsca &lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="81829" name="pozostawać" pos="czasownik"
+                  tagcount="0" domain="cst"
+                  desc="stawać się resztą &lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="81830" name="pozostawać" pos="czasownik"
+                  tagcount="0" domain="cst"
+                  desc="stawać się spadkiem &lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="81831" name="pozostawać" pos="czasownik"
+                  tagcount="0" domain="cst"
+                  desc="zostawać przy życiu po czyjejś śmierci &lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="7076240" name="pozostawać" pos="czasownik"
+                  tagcount="0" domain="pst" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="6"/>
+    <lexical-unit id="79253" name="pozostawać przy swoim"
+                  pos="czasownik" tagcount="0" domain="cumy"
+                  desc="brak danych &lt;##nDD> &lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="102349" name="pozostawać w sprzeczności"
+                  pos="czasownik" tagcount="0" domain="cst"
+                  desc="brak danych &lt;##nDD> &lt;##VLC: ST>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="111710" name="pozostawanie" pos="rzeczownik"
+                  tagcount="0" domain="st" desc="stawać się resztą"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="111720" name="pozostawanie" pos="rzeczownik"
+                  tagcount="0" domain="st" desc="stawać się spadkiem"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="123681" name="pozostawanie" pos="rzeczownik"
+                  tagcount="0" domain="st"
+                  desc="o osobach lub rzeczach: zachować jakiś stan, cechy, zostać w jakiejś sytuacji, położeniu (np. pozostać wiernym, pozostać gdzieś do końca roku)"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="123690" name="pozostawanie" pos="rzeczownik"
+                  tagcount="0" domain="st" desc="nie opuszczać jakiegoś miejsca"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="123674" name="pozostawanie przy swoim"
+                  pos="rzeczownik" tagcount="0" domain="st"
+                  desc="##K:  ##D: . [##P: ] {##L: }" workstate="Nieprzetworzony"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="111747"
+                  name="pozostawanie w jakichś relacjach społecznych"
+                  pos="rzeczownik" tagcount="0" domain="st"
+                  desc="##K:  ##D: . [##P: ] {##L: }" workstate="Nieprzetworzony"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="111605" name="pozostawanie w mocy"
+                  pos="rzeczownik" tagcount="0" domain="st"
+                  desc="##K:  ##D: . [##P: ] {##L: }" workstate="Nieprzetworzony"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="111516" name="pozostawanie w sprzeczności"
+                  pos="rzeczownik" tagcount="0" domain="st"
+                  desc="##K:  ##D: . [##P: ] {##L: }" workstate="Nieprzetworzony"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="6351" name="pozostawiać" pos="czasownik"
+                  tagcount="476" domain="cpos"
+                  desc="##K: książk. ##D: zachowywać, zatrzymywać, nie pozbywać się czegoś. [##P: Poprzednia pani pozostawiała mi codziennie chleb, tak żebym mogła go odebrać, wracając z pracy.] &lt;##VLC: CZ>"
+                  workstate="Sprawdzony" source="systemowy" variant="3"/>
+    <lexical-unit id="20888" name="pozostawiać" pos="czasownik"
+                  tagcount="476" domain="ruch"
+                  desc="##K: og. ##D: opuszczać coś lub kogoś, oddalać się od kogoś lub czegoś. [##P: Ludzie ewakuując się w pośpiechu, pozostawiają prawie cały dobytek.] [##W: Gdy ukochany zostaje wysłany na front I wojny światowej, pozostawia Jody, która oczekuje ich wspólnego syna.] &lt;##VLC: CZ>"
+                  workstate="Sprawdzony" source="systemowy" variant="1"/>
+    <lexical-unit id="81816" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: książk. ##D: umierając, odchodzić z czyjegoś życia. [##W: W 1714 László Teleki umiera i pozostawia córkę – Zuzannę, która poślubiła gubernatora Laszlo Kemeni.] &lt;##VLC: ZD>"
+                  workstate="Sprawdzony" source="użytkownika" variant="7"/>
+    <lexical-unit id="81817" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="##K: książk. ##D: nie brać, nie ruszać skądś, często wcześniej to tam umieściwszy. [##P: Zdrowe korzenie marchwi pozostawia się jak najdłużej w ziemi.] [##W: Samiec pozostawia spermatofory na utkanej siatce, skąd pobiera je samica.] &lt;##VLC: DZn>"
+                  workstate="Sprawdzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="81818" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: sprawiać, powodować coś, wywoływać skutek. [##P: Takie traumatyczne doświadczenie pozostawia uraz na całe życie.] [##W: Tak przebiegający proces gojenia pozostawia trwałe zniekształcenie małżowiny usznej.] [##W: Choroba pozostawia trwałą odporność.] &lt;##VLC: ZD>"
+                  workstate="Sprawdzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="81819" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: książk. ##D: przestawać się czymś zajmować, porzucać zajęcie. [##P: Na chwilę pozostawiamy pracę, żeby zjeść lancz.] &lt;##VLC: CZ>"
+                  workstate="Sprawdzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="81820" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: wyznaczać komuś jakieś zadanie, rezygnować z jakiegoś działania na rzecz kogoś innego. [##P: A decyzję co do wystroju sali pozostawiam tobie.] [##P: Pozostawiłem sobie wybór wina na jutrzejszy wieczór.] &lt;##VLC: CZ>"
+                  workstate="Sprawdzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="7076227" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: książk. ##D: nie wykorzystywać, zachowywać na później. [##P: Nie wypijam od razu całego koktajlu, połowę pozostawiam, żeby zabrać następnego dnia do pracy.]"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="17"/>
+    <lexical-unit id="7076199" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="##K: og. ##D: przez bezpośredni kontakt, np. nacisk, powodować powstanie fizycznej zmiany. [##W: Żelatynę stosuje się także w kulkach do gry w paintball – kulka jest żelatynową skorupką wypełnioną farbą, która po rozbiciu o cel pozostawia na nim ślad.] [##W: Narzędziem rysunkowym może być wszystko co jest twarde i pozostawia ślad na płaszczyźnie.] [##W: Na skórze pozostawia martwicze białe plamy.]"
+                  workstate="Sprawdzony" source="użytkownika" variant="8"/>
+    <lexical-unit id="7076200" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: umożliwiać, dawać, nie stawiać ograniczeń. [##W: Zwykle muzyka dla big-bandów jest w wysokim stopniu aranżowana, co pozostawia mniejsze pole manewru dla solistów jazzowych, w przeciwieństwie dla małych formacji jazzowych, gdzie dużą rolę odgrywa improwizacja.] [##P: Nie pozostawiasz mi wyboru, będę musiał wyciągnąć wobec ciebie konsekwencje.] [##S: Przedłożona ustawa reguluje i umożliwia także ustanowienie przez nasz kraj autonomicznych środków administrowania obrotem towarami z zagranicą w takim zakresie, w jakim umożliwia, a więc pozostawia przestrzeń do tej regulacji, prawo wspólnotowe.] [##W: W skondensowanej, ale wyrazistej charakterystyce sytuacji i postaci pozostawia miejsce na katharsis.] [##W: Ostatecznie forma piłkarska pozostawiała nadzieje w związku z zajęciem szóstego miejsca na finiszu rozgrywek.]"
+                  workstate="Sprawdzony" source="użytkownika" variant="9"/>
+    <lexical-unit id="7076201" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: nie ingerować w coś, nie poddawać zmianom, zachowywać w danym kształcie, nie robić czegoś z czymś. [##P: Grupę kontrolną stanowią obiekty, których nie poddaje się żadnym manipulacjom eksperymentalnym, lecz pozostawia w stanie naturalnym.] [##P: Wiele pytań pozostawiają bez odpowiedzi.] [##W: Pozostawia się jednak pewien niewykoszony obszar (co roku w innym miejscu), by umożliwić przetrwanie licznym i rzadkim gatunkom pienińskich owadów.] [##W: Ranę znacznie zabrudzoną pozostawia się otwartą, z ewentualnym późniejszym wycięciem rany lub ranę wycina się w granicach zdrowych tkanek, aby przyspieszyć jej gojenie.]"
+                  workstate="Sprawdzony" source="użytkownika" variant="10"/>
+    <lexical-unit id="7076223" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="ruch"
+                  desc="##K: og. ##D: mijać coś, oddalać się od czegoś, kogoś. [##P: Po prawej pozostawiamy gospodę - jedziemy dalej, bo spieszno nam do celu.] [##P: Pozostawia goniącego go Greka 200 m za sobą.]"
+                  workstate="Sprawdzony" source="użytkownika" variant="15"/>
+    <lexical-unit id="7076216" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="cwyt"
+                  desc="##K: og. ##D: najczęściej o człowieku: stwarzać coś, co się po nim zachowuje. [##P: Żadna z tych kultur nie pozostawia po sobie pisma.]"
+                  workstate="Błąd" source="użytkownika" variant="11"/>
+    <lexical-unit id="7076218" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: og. ##D: dawać w spadku, sprawiać, że po śmierci ktoś wejdzie w posiadanie czegoś. [##P: W testamencie pozostawia wszystko swojej żonie.]"
+                  workstate="Nowy" source="użytkownika" variant="12"/>
+    <lexical-unit id="7076219" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: książk. ##D: zrywać relację, opuszczać, rozstawać się. [##P: Naprawdę ot tak pozostawiasz rodzinę dla kogoś takiego?]"
+                  workstate="Sprawdzony" source="użytkownika" variant="13"/>
+    <lexical-unit id="7076221" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="cpor"
+                  desc="##K: og. ##D: przekazywać coś komuś, żeby się z tym zapoznał. [##Ko: pozostawiać wiadomość, pozostawiać informację, pozostawiać adres]"
+                  workstate="Sprawdzony" source="użytkownika" variant="14"/>
+    <lexical-unit id="7076225" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: w czasie swojej bytności lub działalności doprowadzać do jakiegoś stanu, który pozostaje po ustaniu owej obecności lub działalności. [##P: Zawsze pozostawiaj po sobie porządek.] [##Ko: pozostawiać bałagan]"
+                  workstate="Sprawdzony" source="użytkownika" variant="16"/>
+    <lexical-unit id="7076242" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: pozwalać czemuś przeminąć, zrywać więź z czymś, nie zajmować czymś dłużej swoich myśli. [##P: W oddali pozostawiam wszystkie te wzruszenia.]"
+                  workstate="Nowy" source="użytkownika" variant="18"/>
+    <lexical-unit id="7076252" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: planować, że się coś zrobi w przyszłości. [##P: Oglądanie filmu pozostawiamy sobie na weekend.]"
+                  workstate="Nowy" source="użytkownika" variant="19"/>
+    <lexical-unit id="7076259" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: książk. ##D: wydawać w jakimś miejscu określoną sumę pieniędzy. [##P: Turyści co roku pozostawiają na tej wyspie kilka milionów dolarów.]"
+                  workstate="Nowy" source="użytkownika" variant="20"/>
+    <lexical-unit id="7076264" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: pozbawiać pomocy, wsparcia, skazywać na samodzielne radzenie sobie z trudnościami. [##P: Najpierw deklarują pomoc, a potem pozostawiają cię samemu sobie.]"
+                  workstate="Nowy" source="użytkownika" variant="21"/>
+    <lexical-unit id="7076855" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="cdystr"
+                  desc="##K: og. ##D: wiele razy, o wielu osobach: zostawić coś w jakimś miejscu, nie zabrać czegoś skądś. [##P: Pozostawialiśmy nasze kurtki gdzie popadnie.]"
+                  workstate="Nowy" source="użytkownika" variant="22"/>
+    <lexical-unit id="7076871" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: wstrzymywać się od czegoś, decydować się czymś nie zajmować (wcale lub przez jakiś czas), nie podejmować jakiegoś tematu. [##P: Pozostawiamy teraz temat imigrantów.]"
+                  workstate="Nowy" source="użytkownika" variant="23"/>
+    <lexical-unit id="7076912" name="pozostawiać" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: książk. ##D: nie zajmować, nie zapełniać wolnej przestrzeni. [##W: Obozy marszowe było wznoszone w 3 do 6 godzin, czasem zamiast bram pozostawiano przerwy w palisadzie.]"
+                  workstate="Nowy" source="użytkownika" variant="24"/>
+    <lexical-unit id="116166" name="pozostawianie" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="umierając opuszczać kogoś, ale i spadek"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="7"/>
+    <lexical-unit id="116905" name="pozostawianie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="przynosić i kłaść, nie brać"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="118141" name="pozostawianie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="odchodzić, zostawiać"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="118388" name="pozostawianie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="wstrzymywać się od działania"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="118596" name="pozostawianie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="zdawać się w czymś na kogoś"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="120881" name="pozostawianie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="zachowywanie, odkładanie"
+                  workstate="Nieprzetworzony" source="systemowy" variant="3"/>
+    <lexical-unit id="125567" name="pozostawianie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="wywoływać skutek"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="6352" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="ruch"
+                  desc="##K: książk. ##D: opuścić kogoś lub coś, oddalić się od kogoś lub czegoś. [##P: Pozostawił rodzinę siedzącą przy stole i pognał do pracy.] [##P: Pozostawiłeś dom pod opieką obcego człowieka?] &lt;##VLC: AK>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="81810" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="##K: książk. ##D: nie wziąć, nie zabrać skądś, często wcześniej to tam umieściwszy. [##P: W stacyjce pozostawiono kluczyki.] &lt;##VLC: DZd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="81811" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: umierając, pozbawić kogoś swojej obecności, zostawić kogoś bliskiego na świecie. [##W: Nie pozostawił męskiego potomka, a po jego śmierci jego księstwo pogrążyło się w długotrwałej wojnie sukcesyjnej.] &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="81812" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: sprawić, spowodować coś, wywołać skutek. [##W: Snofru był uważany za mądrego i sprawiedliwego władcę, jego panowanie pozostawiło po sobie dobrą pamięć wyrażaną w licznych późniejszych bajkach i opowieściach, podkreślających jego dobroć i poufałość wobec poddanych.] &lt;##VLC: WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="81813" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: książk. ##D: zaprzestać czegoś, przestać być w coś zaangażowanym. [##P: Jeśli pozostawisz to teraz, możesz nie mieć okazji, by do tego wrócić i raz na zawsze zakończyć.] &lt;##VLC: AK>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="81814" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: dać coś komuś zrobić samodzielnie, bez swojego udziału. [##P: Decyzję pozostawimy wam, drodzy widzowie.] [##P: Wymyślenie prezentu teściom pozostawiłam mężowi.] [##P: Sobie pozostawiłam sprzątanie łazienki] &lt;##VLC: AK>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="81815" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: książk. ##D: zachować, zatrzymać, nie pozbyć się czegoś. [##P: Lepiej pozostaw sobie te dokumenty, mogą się jeszcze przydać.] [##P: Pozostawiłam dla pani ten krem, o który pani pytała, jak tylko dojechał z hurtowni.] &lt;##VLC: AK, DZd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="7"/>
+    <lexical-unit id="7076207" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: nie poddać zmianom, nie zaingerować w coś, zachować w danym kształcie, nie zrobić czegoś z czymś. [##W: Reorganizacja i zmiana nazwy zespołu pozostawiła ten skrót bez zmian.] [##Nurowska: Najlepsze są w occie bergamoty i muszkatułki; należy je starannie obrać i oczyścić z pestek i szypułek; większe poprzekrawać, mniejsze pozostawić w całości, korzonek przyciąć.] [##W: Królowie polscy prawo to łaskawie jej pozostawili.]"
+                  workstate="Nowy" source="użytkownika" variant="10"/>
+    <lexical-unit id="7076205" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="##K: og. ##D: przez bezpośredni kontakt spowodować powstanie fizycznej zmiany. [##W: Uderzenie pozostawiło ślad w postaci czarnej plamy w atmosferze planety, o wielkości zbliżonej do Owalu BA.]"
+                  workstate="Nowy" source="użytkownika" variant="8"/>
+    <lexical-unit id="7076206" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: umożliwić, dać, nie postawić ograniczeń. [##P: Wybór tego kierunku studiów pozostawi mi większe pole manewru, jeśli chodzi o planowanie przyszłości.] [##P: Nie pozostawiłeś mi wyboru, musiałam tak postąpić.]"
+                  workstate="Nowy" source="użytkownika" variant="9"/>
+    <lexical-unit id="7076215" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="cwyt"
+                  desc="##K: og. ##D: najczęściej o człowieku: stworzyć coś, co się po nim zachowało. [##P: Pozostawił po sobie dwie symfonie.] [##P: Gutejowie stali na dość niskim poziomie i nie pozostawili po sobie ani dzieł piśmiennych, ani żadnych znaczących wytworów sztuki.] [##P: Nie pozostawił żadnego testamentu.]"
+                  workstate="Nowy" source="użytkownika" variant="11"/>
+    <lexical-unit id="7076217" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: og. ##D: dać w spadku, spowodować, że po śmierci ktoś wszedł w posiadanie czegoś. [##W: Mógł on sobie pozwolić na ową niezależność, ponieważ w 1812 ojciec pozostawił mu spory majątek.]"
+                  workstate="Nowy" source="użytkownika" variant="12"/>
+    <lexical-unit id="7076220" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: książk. ##D: zerwać relację, rozstać się, opuścić. [##P: Pozostawiłeś ją w momencie, gdy nie mogła liczyć na żadną pomoc.]"
+                  workstate="Nowy" source="użytkownika" variant="13"/>
+    <lexical-unit id="7076222" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="cpor"
+                  desc="##K: og. ##D: przekazać coś komuś, żeby się z tym zapoznał. [##Ko: pozostawić wiadomość, pozostawić numer telefonu]"
+                  workstate="Nowy" source="użytkownika" variant="14"/>
+    <lexical-unit id="7076224" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="ruch"
+                  desc="##K: og. ##D: minąć coś, oddalić się od czegoś, kogoś. [##P: Za sobą pozostawiliśmy ośnieżone szczyty Alp i wyruszyliśmy na południe.]"
+                  workstate="Nowy" source="użytkownika" variant="15"/>
+    <lexical-unit id="7076226" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: og. ##D: w czasie swojej bytności lub działalności doprowadzić do jakiegoś stanu, który pozostaje po ustaniu owej obecności lub działalności. [##P: Odchdząc na emeryturę, pozostawił chaos w strukturach firmy.] [##P: Rzeczy pozostawiłam rozrzucone i nie posłałam łóżka, bo bardzo się spieszyłam.] [##P: Wiele spraw pozostawił nierozwiązanych.] [##Ko: pozostawić ład]"
+                  workstate="Częściowo przetworzony" source="użytkownika" variant="16"/>
+    <lexical-unit id="7076228" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: książk. ##D: nie wykorzystać, zachować na później. [##P: Odlewając makaron, pozostaw ok. pół szklanki wody z gotowania.]"
+                  workstate="Nowy" source="użytkownika" variant="17"/>
+    <lexical-unit id="7076241" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: pozwolić czemuś przeminąć, zerwać z czymś, uwolnić od czegoś swoje myśli. [##P: Pozostawił za sobą dawne życie.]"
+                  workstate="Nowy" source="użytkownika" variant="18"/>
+    <lexical-unit id="7076251" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: zaplanować, że się coś zrobi w przyszłości, odłożyć w czasie. [##P: Przekopywanie ogródka pozostawiłem na jutro.]"
+                  workstate="Nowy" source="użytkownika" variant="19"/>
+    <lexical-unit id="7076258" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="cpos"
+                  desc="##K: książk. ##D: wydać w jakimś miejscu pewną sumę pieniędzy. [##P: Nikt tak naprawdę, nie wie, ile pieniędzy pozostawił w kasynie.]"
+                  workstate="Nowy" source="użytkownika" variant="20"/>
+    <lexical-unit id="7076265" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="##K: og. ##D: pozbawić pomocy, wsparcia, skazać na samodzielne radzenie sobie z trudnościami. [##P: Pozostawiłeś mnie na pastwę rozwścieczonej nauczycielki.]"
+                  workstate="Nowy" source="użytkownika" variant="21"/>
+    <lexical-unit id="7076869" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="cumy"
+                  desc="##K: og. ##D: wstrzymać się od czegoś, odłożyć jakąś kwestię, zdecydować się czymś nie zajmować (wcale lub przez jakiś czas), nie podjąć jakiegoś tematu. [##P: Pozostawmy na chwilę dawne niesnaski.]"
+                  workstate="Nowy" source="użytkownika" variant="22"/>
+    <lexical-unit id="7076911" name="pozostawić" pos="czasownik"
+                  tagcount="0" domain="zmn"
+                  desc="##K: książk. ##D: nie zająć, nie zapełnić wolnej przestrzeni. [##P: Ile miejsca należy pozostawić przy płocie na obsadę roślin?]"
+                  workstate="Nowy" source="użytkownika" variant="23"/>
+    <lexical-unit id="119737" name="pozostawienie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="zdać się na kogoś"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="5"/>
+    <lexical-unit id="135774" name="pozostawienie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="umierając opuścić kogoś (też spadek)"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="6"/>
+    <lexical-unit id="138298" name="pozostawienie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="zachować, odłożyć coś dla kogoś"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="7"/>
+    <lexical-unit id="138705" name="pozostawienie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="wstrzymać się od działania"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="4"/>
+    <lexical-unit id="139077" name="pozostawienie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="przynieść i położyć, nie wziąć"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="139658" name="pozostawienie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="odejść"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="141463" name="pozostawienie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="sprawić, wywołać, spowodować"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="6357" name="pozować" pos="czasownik" tagcount="0"
+                  domain="pst" desc="brak danych &lt;##VLC: CZ>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="96493" name="pozować" pos="czasownik" tagcount="0"
+                  domain="sp" desc="brak danych &lt;##VLC: CZ>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="115371" name="pozowanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="116067" name="pozowanie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="6344" name="pozór" pos="rzeczownik" tagcount="377"
+                  domain="cech" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="27481" name="pozrywać" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="7078699" name="pozrywać" pos="czasownik"
+                  tagcount="0" domain="cdystr" desc="" workstate="Znaczenie"
+                  source="użytkownika" variant="2"/>
+    <lexical-unit id="142190" name="pozrywanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="515832" name="Pozsony" pos="rzeczownik pwn"
+                  tagcount="0" domain="msc" desc="" workstate="Nieprzetworzony"
+                  source="użytkownika" variant="1"/>
+    <lexical-unit id="81973" name="pozszywać" pos="czasownik"
+                  tagcount="0" domain="cwyt" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="98192" name="pozszywać" pos="czasownik"
+                  tagcount="0" domain="dtk"
+                  desc="scalić wiele rzeczy (np. zszywaczem do papieru) &lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142216" name="pozszywanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="scalić wiele rzeczy (np. zszywaczem do papieru)"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142460" name="pozszywanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="89108" name="pozwać" pos="czasownik" tagcount="0"
+                  domain="sp" desc="&lt;##VLC: AK, DZd>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="91066" name="pozwać" pos="czasownik" tagcount="0"
+                  domain="sp" desc="wezwać przed sąd &lt;##VLC: AK, DZd, WY>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="6358" name="pozwalać" pos="czasownik"
+                  tagcount="2001" domain="cpor"
+                  desc="godzić się, przychylać się do czyjejś prośby &lt;##VLC: CZ>"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="6359" name="pozwalać" pos="czasownik" tagcount="0"
+                  domain="cst"
+                  desc="o okolicznościach, warunkach zewnętrznych: umożliwiać, dopuszczać do czegoś (np. okoliczności pogodowe nie pozwoliły nam na dłuższy spacer) &lt;##VLC: CZ>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="89255" name="pozwalać" pos="czasownik"
+                  tagcount="0" domain="ruch"
+                  desc="pot. pozrzucać, spowodować upadek wielu ludzi/rzeczy &lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="90969" name="pozwalać sobie" pos="czasownik"
+                  tagcount="0" domain="sp"
+                  desc="brak danych &lt;##nDD> &lt;##VLC: ZD>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="115375" name="pozwalanie" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="o okolicznościach, warunkach zewnętrznych: umożliwiać, dopuszczać do czegoś (np. okoliczności pogodowe nie pozwoliły nam na dłuższy spacer)"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="115861" name="pozwalanie" pos="rzeczownik"
+                  tagcount="0" domain="czy"
+                  desc="godzić się, przychylać się do czyjejś prośby"
+                  workstate="Nieprzetworzony" source="systemowy" variant="1"/>
+    <lexical-unit id="142256" name="pozwalanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz"
+                  desc="pot. pozrzucać, spowodować upadek wielu ludzi/rzeczy"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="3"/>
+    <lexical-unit id="123205" name="pozwalanie sobie" pos="rzeczownik"
+                  tagcount="0" domain="czy" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="358556" name="pozwana" pos="rzeczownik"
+                  tagcount="0" domain="os" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="124012" name="pozwanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="124856" name="pozwanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="wezwać przed sąd"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="16673" name="pozwany" pos="rzeczownik"
+                  tagcount="0" domain="os"
+                  desc="##K: urz. ##D: osoba, przeciwko której skierowano powództwo, przeciwko której toczy się postępowanie sądowe. [##W: W trakcie rozprawy pozwany zajmuje miejsce po lewej stronie sądu (składu sędziowskiego).] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="87869" name="pozwiedzać" pos="czasownik"
+                  tagcount="0" domain="sp" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142416" name="pozwiedzanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="81968" name="pozwijać" pos="czasownik"
+                  tagcount="0" domain="dtk" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
+    <lexical-unit id="81972" name="pozwijać" pos="czasownik"
+                  tagcount="0" domain="zmn" desc="&lt;##VLC: DYS>"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142243" name="pozwijanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="1"/>
+    <lexical-unit id="142355" name="pozwijanie" pos="rzeczownik"
+                  tagcount="0" domain="zdarz" desc="##K:  ##D: . [##P: ] {##L: }"
+                  workstate="Nieprzetworzony" source="użytkownika" variant="2"/>
 </array-list>
