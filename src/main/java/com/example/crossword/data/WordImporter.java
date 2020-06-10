@@ -5,6 +5,7 @@ import com.example.crossword.data.source.DictionaryReader;
 import com.example.crossword.data.source.Word;
 import com.example.crossword.data.utils.QuestionParser;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -19,7 +20,7 @@ public class WordImporter implements CommandLineRunner {
     private final WordService wordService;
     private final DictionaryReader dictionaryReader;
 
-    public WordImporter(WordService wordService, DictionaryReader dictionaryReader) {
+    public WordImporter(@Qualifier("inMemoryWordService") WordService wordService, DictionaryReader dictionaryReader) {
         this.wordService = wordService;
         this.dictionaryReader = dictionaryReader;
     }
@@ -30,6 +31,7 @@ public class WordImporter implements CommandLineRunner {
             List<Word> words = dictionaryReader.readWords();
             List<WordEntity> wordEntities = mapToEntitiesSorted(words);
             wordService.saveBatch(wordEntities);
+            log.info("importing data completed");
         } else {
             log.info("skip importing data");
         }
