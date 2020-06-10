@@ -1,13 +1,13 @@
-package com.example.crossword.board.utils;
+package com.example.crossword.board.validator;
 
 import com.example.crossword.board.model.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+class AnswerValidatorTest {
 
-class BoardUtilsTest {
+    //todo more tests for checking exceptions
 
     @Test
     void getPositionsForVertical() {
@@ -19,9 +19,7 @@ class BoardUtilsTest {
                         new Letter("L", Position.of(1, 5)),
                         new Letter("A", Position.of(1, 6))))
                 .build();
-
-        assertEquals(BoardUtils.getFirstLetterPosition(answer.getLetters()), Position.of(1, 4));
-        assertEquals(BoardUtils.getLastLetterPosition(answer.getLetters()), Position.of(1, 6));
+        AnswerValidator.validate(answer);
     }
 
     @Test
@@ -34,9 +32,7 @@ class BoardUtilsTest {
                         new Letter("L", Position.of(1, 4)),
                         new Letter("A", Position.of(1, 5))))
                 .build();
-
-        assertEquals(BoardUtils.getFirstLetterPosition(answer.getLetters()), Position.of(1, 3));
-        assertEquals(BoardUtils.getLastLetterPosition(answer.getLetters()), Position.of(1, 5));
+        AnswerValidator.validate(answer);
     }
 
     @Test
@@ -49,9 +45,7 @@ class BoardUtilsTest {
                         new Letter("L", Position.of(3, 4)),
                         new Letter("A", Position.of(3, 5))))
                 .build();
-
-        assertEquals(BoardUtils.getFirstLetterPosition(answer.getLetters()), Position.of(3, 3));
-        assertEquals(BoardUtils.getLastLetterPosition(answer.getLetters()), Position.of(3, 5));
+        AnswerValidator.validate(answer);
     }
 
     @Test
@@ -64,9 +58,7 @@ class BoardUtilsTest {
                         new Letter("L", Position.of(5, 1)),
                         new Letter("A", Position.of(6, 1))))
                 .build();
-
-        assertEquals(BoardUtils.getFirstLetterPosition(answer.getLetters()), Position.of(4, 1));
-        assertEquals(BoardUtils.getLastLetterPosition(answer.getLetters()), Position.of(6, 1));
+        AnswerValidator.validate(answer);
     }
 
     @Test
@@ -79,9 +71,7 @@ class BoardUtilsTest {
                         new Letter("L", Position.of(4, 1)),
                         new Letter("A", Position.of(5, 1))))
                 .build();
-
-        assertEquals(BoardUtils.getFirstLetterPosition(answer.getLetters()), Position.of(3, 1));
-        assertEquals(BoardUtils.getLastLetterPosition(answer.getLetters()), Position.of(5, 1));
+        AnswerValidator.validate(answer);
     }
 
     @Test
@@ -94,9 +84,6 @@ class BoardUtilsTest {
                         new Letter("L", Position.of(4, 3)),
                         new Letter("A", Position.of(5, 3))))
                 .build();
-
-        assertEquals(BoardUtils.getFirstLetterPosition(answer.getLetters()), Position.of(3, 3));
-        assertEquals(BoardUtils.getLastLetterPosition(answer.getLetters()), Position.of(5, 3));
+        AnswerValidator.validate(answer);
     }
-
 }

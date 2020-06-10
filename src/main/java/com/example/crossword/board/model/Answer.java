@@ -1,15 +1,13 @@
 package com.example.crossword.board.model;
 
 import com.example.crossword.board.utils.BoardUtils;
-import com.example.crossword.board.validator.AnswerValidator;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
-import lombok.ToString;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @EqualsAndHashCode
-@ToString
 @Getter
 public class Answer {
 
@@ -68,10 +66,13 @@ public class Answer {
         }
 
         public Answer build() {
-            AnswerValidator.validate(this);
-
             return new Answer(question, letters, orientation);
         }
 
+    }
+
+    @Override
+    public String toString() {
+        return question + " - " + letters.stream().map(Letter::getValue).collect(Collectors.joining());
     }
 }
