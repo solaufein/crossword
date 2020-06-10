@@ -73,6 +73,6 @@ public class Answer {
 
     @Override
     public String toString() {
-        return question + " - " + letters.stream().map(Letter::getValue).collect(Collectors.joining());
+        return question + " (" + orientation + ") - " + letters.stream().map(Letter::getValue).collect(Collectors.joining());
     }
 }

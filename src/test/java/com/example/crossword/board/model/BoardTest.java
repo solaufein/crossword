@@ -61,9 +61,9 @@ class BoardTest {
                         "\n" +
                         "\n" +
                         "Answers: \n" +
-                        "[ Q-1 ] - ALA\n" +
-                        "[ Q-2 ] - KOT\n" +
-                        "[ Q-3 ] - MAMA", board.toString());
+                        "[ Q-1 ] (HORIZONTAL) - ALA\n" +
+                        "[ Q-2 ] (VERTICAL) - KOT\n" +
+                        "[ Q-3 ] (HORIZONTAL) - MAMA", board.toString());
     }
 
     private List<Cell> createCells(Question question, List<Letter> letters) {
