@@ -1,14 +1,19 @@
 package com.example.crossword.board.model;
 
-import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 
+@Getter
 @EqualsAndHashCode(callSuper = true)
-@Data
 public class Question extends Cell {
 
-    public Question(String value, Position position) {
+    private final Arrow arrow;
+    private final long id;
+
+    public Question(String value, Position position, Arrow arrow, long id) {
         super(value, position);
+        this.arrow = arrow;
+        this.id = id;
     }
 
     @Override
@@ -16,4 +21,8 @@ public class Question extends Cell {
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "[ Q-" + id + " ]";
+    }
 }

@@ -1,7 +1,7 @@
 package com.example.crossword.board.utils;
 
-import com.example.crossword.board.model.Answer;
 import com.example.crossword.board.model.Letter;
+import com.example.crossword.board.model.Position;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
@@ -11,31 +11,19 @@ public final class BoardUtils {
     private BoardUtils() {
     }
 
-    public static int getFromPosition(Answer answer) {
-        List<Letter> letters = answer.getLetters();
+    public static Position getFirstLetterPosition(List<Letter> letters) {
         if (letters.size() > 1) {
-            if (!answer.getOrientation().isHorizontal()) {
-                return letters.get(0).getPosition().getPositionX();
-            } else {
-                return letters.get(0).getPosition().getPositionY();
-            }
+            return letters.get(0).getPosition();
         } else {
-            log.warn("cannot get 'from' position in Answer: {}", answer);
-            return 0;
+            throw new IllegalArgumentException("cannot get first letter position");
         }
     }
 
-    public static int getToPosition(Answer answer) {
-        List<Letter> letters = answer.getLetters();
+    public static Position getLastLetterPosition(List<Letter> letters) {
         if (letters.size() > 1) {
-            if (!answer.getOrientation().isHorizontal()) {
-                return letters.get(letters.size() - 1).getPosition().getPositionX();
-            } else {
-                return letters.get(letters.size() - 1).getPosition().getPositionY();
-            }
+            return letters.get(letters.size() - 1).getPosition();
         } else {
-            log.warn("cannot get 'to' position in Answer: {}", answer);
-            return 0;
+            throw new IllegalArgumentException("cannot get last letter position");
         }
     }
 }

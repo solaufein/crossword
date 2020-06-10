@@ -1,14 +1,16 @@
 package com.example.crossword.board.model;
 
-import lombok.Data;
+import lombok.Value;
 
 import java.util.List;
 
-@Data
+@Value
 public class Board {
-    private String title;
-    private List<List<Cell>> cells;
-    private List<Answer> answer;
-    private int length;
-    private int height;
+    String title;
+    List<List<Cell>> cells;
+    List<Answer> answer;
+    int length;
+    int height;
+
+    //todo: toString readable
 }

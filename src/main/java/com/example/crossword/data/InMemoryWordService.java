@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -15,7 +16,9 @@ public class InMemoryWordService implements WordService {
 
     @Override
     public void saveBatch(List<WordEntity> wordEntities) {
+        AtomicLong idGenerator = new AtomicLong(1);
         Map<Integer, List<WordEntity>> grouped = wordEntities.stream()
+                .peek(wordEntity -> assignWordId(idGenerator, wordEntity))
                 .collect(Collectors.groupingBy(WordEntity::getTotalLetters));
         wordEntitiesPerLettersCount.putAll(grouped);
     }
@@ -43,5 +46,8 @@ public class InMemoryWordService implements WordService {
                 .findAny();
     }
 
+    private void assignWordId(AtomicLong idGenerator, WordEntity wordEntity) {
+        wordEntity.setId(idGenerator.getAndIncrement());
+    }
 
 }

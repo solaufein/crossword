@@ -8,4 +8,8 @@ public class Position {
     int positionX;
     int positionY;
 
+    @Override
+    public String toString() {
+        return "pos(" + positionX + "," + positionY + ")";
+    }
 }
