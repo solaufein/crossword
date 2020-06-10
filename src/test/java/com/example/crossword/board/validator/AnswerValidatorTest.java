@@ -5,9 +5,49 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
+
 class AnswerValidatorTest {
 
     //todo more tests for checking exceptions
+
+
+    @Test
+    void shouldThrowWhenOrientationHorizontalAndArrowNot() {
+        Answer answer = Answer.AnswerBuilder.anAnswer()
+                .withOrientation(Orientation.HORIZONTAL)
+                .withQuestion(new Question("What?", Position.of(1, 3), Arrow.DOWN_ON_MIDDLE, 1L))
+                .withLetters(Arrays.asList(
+                        new Letter("A", Position.of(1, 4)),
+                        new Letter("L", Position.of(1, 5)),
+                        new Letter("A", Position.of(1, 6))))
+                .build();
+        try {
+            AnswerValidator.validate(answer);
+            fail("Exception was expected");
+        } catch (Exception ex) {
+            assertEquals("Invalid arrow: DOWN_ON_MIDDLE for orientation: HORIZONTAL", ex.getMessage());
+        }
+    }
+
+    @Test
+    void shouldThrowWhenOrientationVerticalAndArrowNot() {
+        Answer answer = Answer.AnswerBuilder.anAnswer()
+                .withOrientation(Orientation.VERTICAL)
+                .withQuestion(new Question("What?", Position.of(1, 3), Arrow.RIGHT_ON_MIDDLE, 1L))
+                .withLetters(Arrays.asList(
+                        new Letter("A", Position.of(1, 4)),
+                        new Letter("L", Position.of(1, 5)),
+                        new Letter("A", Position.of(1, 6))))
+                .build();
+        try {
+            AnswerValidator.validate(answer);
+            fail("Exception was expected");
+        } catch (Exception ex) {
+            assertEquals("Invalid arrow: RIGHT_ON_MIDDLE for orientation: VERTICAL", ex.getMessage());
+        }
+    }
 
     @Test
     void getPositionsForVertical() {
