@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -28,8 +27,9 @@ public class WordImporter implements CommandLineRunner {
     @Override
     public void run(String... args) {
         if (wordService.isImportNeeded()) {
+            log.info("importing data started");
             List<Word> words = dictionaryReader.readWords();
-            List<WordEntity> wordEntities = mapToEntitiesSorted(words);
+            List<WordEntity> wordEntities = mapToEntities(words);
             wordService.saveBatch(wordEntities);
             log.info("importing data completed");
         } else {
@@ -37,21 +37,16 @@ public class WordImporter implements CommandLineRunner {
         }
     }
 
-    private List<WordEntity> mapToEntitiesSorted(List<Word> words) {
+    private List<WordEntity> mapToEntities(List<Word> words) {
         return words.stream()
                 .map(this::mapToEntity)
-                .sorted(Comparator.comparing(WordEntity::getTotalLetters).reversed())
                 .collect(Collectors.toList());
     }
 
     private WordEntity mapToEntity(Word word) {
         String wordValue = word.getName();
-        String question = getDesc(word);
+        String question = QuestionParser.getQuestion(word.getDesc());
         return new WordEntity(wordValue, question, wordValue.substring(0, 1), wordValue.length());
-    }
-
-    private String getDesc(Word word) {
-        return QuestionParser.getQuestion(word.getDesc());
     }
 
 }

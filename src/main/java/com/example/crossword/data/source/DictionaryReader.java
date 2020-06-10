@@ -10,6 +10,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import java.io.File;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -33,6 +34,7 @@ public class DictionaryReader {
                     .filter(this::havingQuestion)
                     .filter(this::havingAtLeastTwoLetters)
                     .filter(this::havingOnlyLetters)
+                    .sorted(Comparator.comparing(Word::getName))
                     .collect(Collectors.toList());
             log.info("read: {} words from: {}", words.size(), dictionaryFilePath);
             return words;
