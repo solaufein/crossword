@@ -10,9 +10,11 @@ import lombok.NoArgsConstructor;
 public abstract class Cell {
 
     private String value;
-    private int positionX;
-    private int positionY;
+    private Position position;
 
     public abstract boolean isQuestion();
 
+    public boolean isFree() {
+        return value == null || value.isBlank();
+    }
 }

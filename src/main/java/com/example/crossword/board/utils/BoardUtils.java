@@ -15,9 +15,9 @@ public final class BoardUtils {
         List<Letter> letters = answer.getLetters();
         if (letters.size() > 1) {
             if (!answer.getOrientation().isHorizontal()) {
-                return letters.get(0).getPositionX();
+                return letters.get(0).getPosition().getPositionX();
             } else {
-                return letters.get(0).getPositionY();
+                return letters.get(0).getPosition().getPositionY();
             }
         } else {
             log.warn("cannot get 'from' position in Answer: {}", answer);
@@ -29,9 +29,9 @@ public final class BoardUtils {
         List<Letter> letters = answer.getLetters();
         if (letters.size() > 1) {
             if (!answer.getOrientation().isHorizontal()) {
-                return letters.get(letters.size() - 1).getPositionX();
+                return letters.get(letters.size() - 1).getPosition().getPositionX();
             } else {
-                return letters.get(letters.size() - 1).getPositionY();
+                return letters.get(letters.size() - 1).getPosition().getPositionY();
             }
         } else {
             log.warn("cannot get 'to' position in Answer: {}", answer);

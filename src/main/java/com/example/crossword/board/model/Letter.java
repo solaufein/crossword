@@ -7,8 +7,8 @@ import lombok.EqualsAndHashCode;
 @Data
 public class Letter extends Cell {
 
-    public Letter(String value, int positionX, int positionY) {
-        super(value, positionX, positionY);
+    public Letter(String value, Position position) {
+        super(value, position);
     }
 
     @Override
