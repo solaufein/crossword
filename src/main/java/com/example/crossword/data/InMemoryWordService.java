@@ -43,10 +43,5 @@ public class InMemoryWordService implements WordService {
                 .findAny();
     }
 
-    private List<WordEntity> join(List<WordEntity> a, List<WordEntity> b) {
-        ArrayList<WordEntity> c = new ArrayList<>(a);
-        c.addAll(b);
-        return c;
-    }
 
 }
