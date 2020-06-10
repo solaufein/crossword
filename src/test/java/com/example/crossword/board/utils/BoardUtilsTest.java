@@ -1,7 +1,7 @@
 package com.example.crossword.board.utils;
 
 import com.example.crossword.board.model.Answer;
-import com.example.crossword.board.model.Cell;
+import com.example.crossword.board.model.Letter;
 import com.example.crossword.board.model.Orientation;
 import org.junit.jupiter.api.Test;
 
@@ -15,10 +15,10 @@ class BoardUtilsTest {
     void getPositionsForHorizontal() {
         Answer answer = Answer.builder()
                 .orientation(Orientation.HORIZONTAL)
-                .cells(Arrays.asList(
-                        new Cell("A", 3, 1),
-                        new Cell("L", 3, 2),
-                        new Cell("A", 3, 3)))
+                .letters(Arrays.asList(
+                        new Letter("A", 3, 1),
+                        new Letter("L", 3, 2),
+                        new Letter("A", 3, 3)))
                 .build();
 
         assertEquals(BoardUtils.getFromPosition(answer), 1);
@@ -29,10 +29,10 @@ class BoardUtilsTest {
     void getPositionsForVertical() {
         Answer answer = Answer.builder()
                 .orientation(Orientation.VERTICAL)
-                .cells(Arrays.asList(
-                        new Cell("A", 1, 3),
-                        new Cell("L", 2, 3),
-                        new Cell("A", 3, 3)))
+                .letters(Arrays.asList(
+                        new Letter("A", 1, 3),
+                        new Letter("L", 2, 3),
+                        new Letter("A", 3, 3)))
                 .build();
 
         assertEquals(BoardUtils.getFromPosition(answer), 1);

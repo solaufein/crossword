@@ -1,7 +1,7 @@
 package com.example.crossword.board.utils;
 
 import com.example.crossword.board.model.Answer;
-import com.example.crossword.board.model.Cell;
+import com.example.crossword.board.model.Letter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
@@ -12,12 +12,12 @@ public final class BoardUtils {
     }
 
     public static int getFromPosition(Answer answer) {
-        List<Cell> cells = answer.getCells();
-        if (cells.size() > 1) {
+        List<Letter> letters = answer.getLetters();
+        if (letters.size() > 1) {
             if (!answer.getOrientation().isHorizontal()) {
-                return cells.get(0).getPositionX();
+                return letters.get(0).getPositionX();
             } else {
-                return cells.get(0).getPositionY();
+                return letters.get(0).getPositionY();
             }
         } else {
             log.warn("cannot get 'from' position in Answer: {}", answer);
@@ -26,12 +26,12 @@ public final class BoardUtils {
     }
 
     public static int getToPosition(Answer answer) {
-        List<Cell> cells = answer.getCells();
-        if (cells.size() > 1) {
+        List<Letter> letters = answer.getLetters();
+        if (letters.size() > 1) {
             if (!answer.getOrientation().isHorizontal()) {
-                return cells.get(cells.size() - 1).getPositionX();
+                return letters.get(letters.size() - 1).getPositionX();
             } else {
-                return cells.get(cells.size() - 1).getPositionY();
+                return letters.get(letters.size() - 1).getPositionY();
             }
         } else {
             log.warn("cannot get 'to' position in Answer: {}", answer);

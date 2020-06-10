@@ -1,23 +1,18 @@
 package com.example.crossword.board.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-public class Cell {
+@AllArgsConstructor
+@NoArgsConstructor
+public abstract class Cell {
 
     private String value;
     private int positionX;
     private int positionY;
-    private boolean question;
 
-    public Cell() {
-        this.question = false;
-    }
+    public abstract boolean isQuestion();
 
-    public Cell(String value, int positionX, int positionY) {
-        this.value = value;
-        this.positionX = positionX;
-        this.positionY = positionY;
-        this.question = false;
-    }
 }

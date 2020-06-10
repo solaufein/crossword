@@ -5,15 +5,15 @@ import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class Question extends Cell {
+public class Letter extends Cell {
 
-    public Question(String value, int positionX, int positionY) {
+    public Letter(String value, int positionX, int positionY) {
         super(value, positionX, positionY);
     }
 
     @Override
     public boolean isQuestion() {
-        return true;
+        return false;
     }
 
 }

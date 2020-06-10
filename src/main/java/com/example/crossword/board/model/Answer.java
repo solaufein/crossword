@@ -11,7 +11,7 @@ import java.util.List;
 public class Answer {
 
     private Question question;
-    private List<Cell> cells;
+    private List<Letter> letters;
     private Orientation orientation;
 
     public int getFrom() {
@@ -23,6 +23,6 @@ public class Answer {
     }
 
     public int getCount() {
-        return cells.size();
+        return letters.size();
     }
 }
