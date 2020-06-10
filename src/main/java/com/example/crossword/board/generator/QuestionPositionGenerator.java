@@ -1,10 +1,12 @@
 package com.example.crossword.board.generator;
 
-public class QuestionPositionGenerator implements Generator {
+import com.example.crossword.board.model.Question;
+
+public class QuestionPositionGenerator implements Generator<Question> {
 
     @Override
-    public void generate() {
-
+    public Question generate() {
+        return null;
     }
 
 }

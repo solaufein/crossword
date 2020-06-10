@@ -12,6 +12,30 @@ class AnswerValidatorTest {
 
     //todo more tests for checking exceptions
 
+    @Test
+    void shouldThrowOnInvalidLetterPositionForVertical() {
+        //3x tests
+    }
+
+    @Test
+    void shouldThrowOnInvalidLetterPositionForHorizontal() {
+        //3x tests
+    }
+
+    @Test
+    void shouldThrowWhenNotUniqueLettersPositions() {
+
+    }
+
+    @Test
+    void shouldThrowWhenNotVerticalLetters() {
+
+    }
+
+    @Test
+    void shouldThrowWhenNotHorizontalLetters() {
+
+    }
 
     @Test
     void shouldThrowWhenOrientationHorizontalAndArrowNot() {
