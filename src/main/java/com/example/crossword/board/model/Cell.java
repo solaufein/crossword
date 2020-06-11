@@ -5,17 +5,24 @@ import lombok.Getter;
 
 @Getter
 @EqualsAndHashCode
-public abstract class Cell {
+public class Cell {
 
     private final String value;
     private final Position position;
+
+    public Cell(Position position) {
+        this.value = " ";
+        this.position = position;
+    }
 
     public Cell(String value, Position position) {
         this.value = value;
         this.position = position;
     }
 
-    public abstract boolean isQuestion();
+    public boolean isQuestion() {
+        return false;
+    }
 
     public boolean isFree() {
         return value == null || value.isBlank();
