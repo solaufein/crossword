@@ -5,6 +5,7 @@ import lombok.EqualsAndHashCode;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 
 @EqualsAndHashCode
@@ -34,16 +35,23 @@ public class Board {
 
     public boolean hasFreeCellOnTop() {
         for (Cell cell : this.cells.get(0)) {
-            if (cell.isFree()) {
+            if (!cell.isReserved()) {
                 return true;
             }
         }
         return false;
     }
 
+    public Cell getRandomCellOnTop() {
+        Random random = new Random();
+        List<Cell> cellsOnTop = this.cells.get(0);
+        int positionX = random.nextInt(cellsOnTop.size());
+        return cellsOnTop.get(positionX);
+    }
+
     public boolean hasFreeCellOnLeft() {
         for (List<Cell> cell : this.cells) {
-            if (cell.get(0).isFree()) {
+            if (!cell.get(0).isReserved()) {
                 return true;
             }
         }
@@ -56,7 +64,7 @@ public class Board {
         if (set == null) {
             throw new IllegalArgumentException("cannot add cell - previous element not found");
         } else {
-            if (!set.isFree()) {
+            if (!set.isReserved()) {
                 throw new IllegalArgumentException("cannot add cell - trying to replace cell which was not free: " + set + ", " + set.getPosition());
             }
         }

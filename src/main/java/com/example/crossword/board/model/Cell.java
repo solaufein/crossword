@@ -8,32 +8,35 @@ import lombok.Getter;
 public class Cell {
 
     private final Position position;
-    private boolean free;
+    private boolean reserved;
     private String value;
 
     Cell(Position position) {
         this.position = position;
         this.value = null;
-        this.free = true;
+        this.reserved = false;
     }
 
     Cell(Position position, String value) {
         this.position = position;
         this.value = value;
-        this.free = false;
+        this.reserved = false;
     }
 
     public boolean isQuestion() {
         return false;
     }
 
-    public boolean isFree() {
-        return this.free;
-//        return value == null || value.isBlank();
+    public boolean isReserved() {
+        return this.reserved;
     }
 
-    public void setTaken() {
-        this.free = false;
+    public boolean isEmpty() {
+        return value == null || value.isBlank();
+    }
+
+    public void setReserved() {
+        this.reserved = true;
     }
 
     public void setValue(String value) {

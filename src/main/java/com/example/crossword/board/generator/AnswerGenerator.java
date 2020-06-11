@@ -33,7 +33,7 @@ public class AnswerGenerator {
 
         question.setId(id);
         question.setValue(value);
-        question.setTaken();
+        question.setReserved();
 
         return Answer.AnswerBuilder.anAnswer()
                 .withOrientation(orientation)
