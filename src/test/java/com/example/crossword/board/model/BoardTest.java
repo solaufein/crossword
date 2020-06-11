@@ -45,9 +45,9 @@ class BoardTest {
 
         Board board = new Board("Some crossword", 3, 4);
         board.addAllAnswers(asList(answer1, answer2, answer3));
-        board.addCells(createCells(question1, letters1));
-        board.addCells(createCells(question2, letters2));
-        board.addCells(createCells(question3, letters3));
+        board.putCells(createCells(question1, letters1));
+        board.putCells(createCells(question2, letters2));
+        board.putCells(createCells(question3, letters3));
 
         assertEquals(
                 "Crossword \n" +

@@ -23,6 +23,15 @@ public class Board {
         this.cells = createAvailableCells(height, width);
     }
 
+    public boolean canPlace(Answer answer) {
+        //todo
+        return false;
+    }
+
+    public void place(Answer answer) {
+        //todo
+    }
+
     public boolean hasFreeCellOnTop() {
         return false;
     }
@@ -31,7 +40,7 @@ public class Board {
         return false;
     }
 
-    public void addCell(Cell cell) {
+    public void putCell(Cell cell) {
         List<Cell> row = this.cells.get(cell.getPosition().getPositionY() - 1);
         Cell set = row.set(cell.getPosition().getPositionX() - 1, cell);
         if (set == null) {
@@ -43,8 +52,8 @@ public class Board {
         }
     }
 
-    public void addCells(List<Cell> cells) {
-        cells.forEach(this::addCell);
+    public void putCells(List<Cell> cells) {
+        cells.forEach(this::putCell);
     }
 
     public Cell getCell(Position position) {

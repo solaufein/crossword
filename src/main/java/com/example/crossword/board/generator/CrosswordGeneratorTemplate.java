@@ -37,6 +37,10 @@ public class CrosswordGeneratorTemplate {
     }
 
     private boolean tryPlaceOnBoard(Answer answer, Board board) {
+        if (board.canPlace(answer)) {
+            board.place(answer);
+            return true;
+        }
         return false;
     }
 

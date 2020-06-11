@@ -17,18 +17,22 @@ public class AnswerGenerator {
     }
 
     public Answer generateOnTop(Board board) {
-        return null;
+        return generateNext(board, Orientation.VERTICAL);
     }
 
     public Answer generateOnLeft(Board board) {
-        return null;
+        return generateNext(board, Orientation.HORIZONTAL);
     }
 
     public Answer generateNext(Board board) {
+        return generateNext(board, Orientation.random());
+    }
+
+    public Answer generateNext(Board board, Orientation orientation) {
         Question question = new Question("", Position.of(1, 1), Arrow.RIGHT_ON_MIDDLE, 1L);
 
         return Answer.AnswerBuilder.anAnswer()
-                .withOrientation(Orientation.HORIZONTAL)
+                .withOrientation(orientation)
                 .withLetters(new ArrayList<>())
                 .withQuestion(question)
                 .build();
