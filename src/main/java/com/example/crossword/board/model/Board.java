@@ -23,6 +23,14 @@ public class Board {
         this.cells = createAvailableCells(height, width);
     }
 
+    public boolean hasFreeCellOnTop() {
+        return false;
+    }
+
+    public boolean hasFreeCellOnLeft() {
+        return false;
+    }
+
     public void addCell(Cell cell) {
         List<Cell> row = this.cells.get(cell.getPosition().getPositionY() - 1);
         Cell set = row.set(cell.getPosition().getPositionX() - 1, cell);
@@ -39,13 +47,13 @@ public class Board {
         cells.forEach(this::addCell);
     }
 
-    public List<List<Cell>> getAllCells() {
-        return new ArrayList<>(cells);
-    }
-
     public Cell getCell(Position position) {
         return cells.get(position.getPositionY())
                 .get(position.getPositionX());
+    }
+
+    public List<List<Cell>> getAllCells() {
+        return new ArrayList<>(cells);
     }
 
     public void addAnswer(Answer answerToAdd) {
@@ -84,6 +92,10 @@ public class Board {
         return cells;
     }
 
+    private String listToString(List<?> list, String separator) {
+        return list.stream().map(Object::toString).collect(Collectors.joining(separator));
+    }
+
     @Override
     public String toString() {
         return "Crossword \n" +
@@ -92,9 +104,5 @@ public class Board {
                 "height: " + height + "\n" +
                 cells.stream().map(list -> listToString(list, "")).collect(Collectors.joining("\n")) + "\n\n" +
                 "Answers: \n" + listToString(answers, "\n");
-    }
-
-    private String listToString(List<?> list, String separator) {
-        return list.stream().map(Object::toString).collect(Collectors.joining(separator));
     }
 }

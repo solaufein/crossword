@@ -1,7 +1,7 @@
 package com.example.crossword.board.generator;
 
+import com.example.crossword.board.model.Answer;
 import com.example.crossword.board.model.Board;
-import com.example.crossword.board.model.Question;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -9,19 +9,24 @@ import lombok.extern.slf4j.Slf4j;
 @RequiredArgsConstructor
 public class CrosswordGeneratorTemplate {
 
-    private final QuestionGenerator questionGenerator;
+    private final AnswerGenerator answerGenerator;
 
     public void createCrossword(String title, int height, int width) {
         Board board = new Board(title, width, height);
-        QuestionGenerator questionGenerator = new QuestionGenerator(board);
 
-        while (questionGenerator.generateNextQuestion()) {
+        while (board.hasFreeCellOnTop()) {
+            Answer answer = answerGenerator.generateOnTop(board);
+            boolean wasPlaced = tryPlaceOnBoard(answer, board);
+            if (wasPlaced) {
 
+            } else {
+
+            }
         }
 
-        int totalQuestions = 1;
-        for (int i = 0; i < totalQuestions; i++) {
-            boolean wasPlaced = questionGenerator.generateNextQuestion();
+        while (board.hasFreeCellOnLeft()) {
+            Answer answer = answerGenerator.generateOnLeft(board);
+            boolean wasPlaced = tryPlaceOnBoard(answer, board);
             if (wasPlaced) {
 
             } else {
@@ -31,11 +36,8 @@ public class CrosswordGeneratorTemplate {
 
     }
 
-    private boolean tryPlaceOnBoard(Question question, Board board) {
+    private boolean tryPlaceOnBoard(Answer answer, Board board) {
         return false;
     }
 
-    private int calculateQuestions(int height, int width) {
-        return 10;
-    }
 }
