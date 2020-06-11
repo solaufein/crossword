@@ -38,7 +38,7 @@ public final class AnswerValidator {
                 if (firstLetterPosition.getPositionX() != question.getPosition().getPositionX()) {
                     throw new IllegalArgumentException("Invalid first letter position: " + firstLetterPosition + " for orientation: " + answer.getOrientation() + ", and question position: " + question.getPosition() + ", and arrow: " + question.getArrow());
                 }
-                if (firstLetterPosition.getPositionY() - 1 >= question.getPosition().getPositionY()) {
+                if (firstLetterPosition.getPositionY() >= question.getPosition().getPositionY()) {
                     throw new IllegalArgumentException("Invalid first letter position: " + firstLetterPosition + " for orientation: " + answer.getOrientation() + ", and question position: " + question.getPosition() + ", and arrow: " + question.getArrow());
                 }
             } else if (question.getArrow() == Arrow.RIGHT_ON_MIDDLE) {
@@ -58,7 +58,7 @@ public final class AnswerValidator {
             }
         } else {
             if (question.getArrow() == Arrow.DOWN_ON_LEFT) {
-                if (firstLetterPosition.getPositionX() - 1 >= question.getPosition().getPositionX()) {
+                if (firstLetterPosition.getPositionX() >= question.getPosition().getPositionX()) {
                     throw new IllegalArgumentException("Invalid first letter position: " + firstLetterPosition + " for orientation: " + answer.getOrientation() + ", and question position: " + question.getPosition() + ", and arrow: " + question.getArrow());
                 }
                 if (firstLetterPosition.getPositionY() != question.getPosition().getPositionY()) {
@@ -72,7 +72,7 @@ public final class AnswerValidator {
                     throw new IllegalArgumentException("Invalid first letter position: " + firstLetterPosition + " for orientation: " + answer.getOrientation() + ", and question position: " + question.getPosition() + ", and arrow: " + question.getArrow());
                 }
             } else if (question.getArrow() == Arrow.DOWN_ON_RIGHT) {
-                if (firstLetterPosition.getPositionX() + 1 <= question.getPosition().getPositionX()) {
+                if (firstLetterPosition.getPositionX() <= question.getPosition().getPositionX()) {
                     throw new IllegalArgumentException("Invalid first letter position: " + firstLetterPosition + " for orientation: " + answer.getOrientation() + ", and question position: " + question.getPosition() + ", and arrow: " + question.getArrow());
                 }
                 if (firstLetterPosition.getPositionY() != question.getPosition().getPositionY()) {
