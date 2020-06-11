@@ -1,11 +1,15 @@
 package com.example.crossword.board.generator;
 
-import com.example.crossword.board.model.*;
+import com.example.crossword.board.model.Answer;
+import com.example.crossword.board.model.Letter;
+import com.example.crossword.board.model.Orientation;
+import com.example.crossword.board.model.Question;
 import com.example.crossword.data.WordService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @Slf4j
 public class AnswerGenerator {
@@ -16,24 +20,24 @@ public class AnswerGenerator {
         this.wordService = wordService;
     }
 
-    public Answer generateOnTop(Board board) {
-        return generateNext(board, Orientation.VERTICAL);
+    public Answer findAnswer(Question question) {
+        return findAnswer(question, Orientation.random());
     }
 
-    public Answer generateOnLeft(Board board) {
-        return generateNext(board, Orientation.HORIZONTAL);
-    }
+    private Answer findAnswer(Question question, Orientation orientation) {
+        //todo: word.findWordForQuestion(question);
+        //todo: and check if other words are fine
+        long id = 1L;
+        String value = "";
+        List<Letter> letters = new ArrayList<>();
 
-    public Answer generateNext(Board board) {
-        return generateNext(board, Orientation.random());
-    }
-
-    public Answer generateNext(Board board, Orientation orientation) {
-        Question question = new Question("", Position.of(1, 1), Arrow.RIGHT_ON_MIDDLE, 1L);
+        question.setId(id);
+        question.setValue(value);
+        question.setTaken();
 
         return Answer.AnswerBuilder.anAnswer()
                 .withOrientation(orientation)
-                .withLetters(new ArrayList<>())
+                .withLetters(letters)
                 .withQuestion(question)
                 .build();
     }

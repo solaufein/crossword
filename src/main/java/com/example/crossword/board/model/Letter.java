@@ -8,7 +8,7 @@ import lombok.Value;
 public class Letter extends Cell {
 
     public Letter(String value, Position position) {
-        super(value, position);
+        super(position, value);
     }
 
     @Override

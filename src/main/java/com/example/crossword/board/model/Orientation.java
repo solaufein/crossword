@@ -6,13 +6,14 @@ public enum Orientation {
 
     HORIZONTAL, VERTICAL;
 
+    private static final Random RANDOM = new Random();
+
     public boolean isHorizontal() {
         return this == HORIZONTAL;
     }
 
     public static Orientation random() {
-        Random random = new Random();
         Orientation[] values = values();
-        return values[random.nextInt(values.length)];
+        return values[RANDOM.nextInt(values.length)];
     }
 }

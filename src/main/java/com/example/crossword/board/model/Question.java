@@ -8,11 +8,20 @@ import lombok.Getter;
 public class Question extends Cell {
 
     private final Arrow arrow;
-    private final long id;
+    private long id;
 
-    public Question(String value, Position position, Arrow arrow, long id) {
-        super(value, position);
+    public Question(Position position, Arrow arrow) {
+        super(position);
         this.arrow = arrow;
+    }
+
+    public Question(long id, String value, Position position, Arrow arrow) {
+        super(position, value);
+        this.arrow = arrow;
+        this.id = id;
+    }
+
+    public void setId(long id) {
         this.id = id;
     }
 

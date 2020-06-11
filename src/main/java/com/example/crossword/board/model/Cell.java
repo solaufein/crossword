@@ -7,17 +7,20 @@ import lombok.Getter;
 @EqualsAndHashCode
 public class Cell {
 
-    private final String value;
     private final Position position;
+    private boolean free;
+    private String value;
 
-    public Cell(Position position) {
-        this.value = " ";
+    Cell(Position position) {
         this.position = position;
+        this.value = null;
+        this.free = true;
     }
 
-    public Cell(String value, Position position) {
-        this.value = value;
+    Cell(Position position, String value) {
         this.position = position;
+        this.value = value;
+        this.free = false;
     }
 
     public boolean isQuestion() {
@@ -25,11 +28,21 @@ public class Cell {
     }
 
     public boolean isFree() {
-        return value == null || value.isBlank();
+        return this.free;
+//        return value == null || value.isBlank();
+    }
+
+    public void setTaken() {
+        this.free = false;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
     }
 
     @Override
     public String toString() {
         return "[  " + value + "  ]";
     }
+
 }

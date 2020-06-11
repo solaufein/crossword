@@ -12,9 +12,9 @@ class BoardTest {
 
     @Test
     void testToString() {
-        Question question1 = new Question("bla bla 1", Position.of(1, 4), Arrow.RIGHT_ON_MIDDLE, 1L);
-        Question question2 = new Question("bla bla 2", Position.of(2, 4), Arrow.RIGHT_ON_TOP, 2L);
-        Question question3 = new Question("bla bla 3", Position.of(3, 4), Arrow.DOWN_ON_MIDDLE, 3L);
+        Question question1 = new Question(1L, "bla bla 1", Position.of(1, 4), Arrow.RIGHT_ON_MIDDLE);
+        Question question2 = new Question(2L, "bla bla 2", Position.of(2, 4), Arrow.RIGHT_ON_TOP);
+        Question question3 = new Question(3L, "bla bla 3", Position.of(3, 4), Arrow.DOWN_ON_MIDDLE);
         List<Letter> letters1 = asList(
                 new Letter("A", Position.of(1, 1)),
                 new Letter("L", Position.of(2, 1)),

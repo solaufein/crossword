@@ -33,10 +33,20 @@ public class Board {
     }
 
     public boolean hasFreeCellOnTop() {
+        for (Cell cell : this.cells.get(0)) {
+            if (cell.isFree()) {
+                return true;
+            }
+        }
         return false;
     }
 
     public boolean hasFreeCellOnLeft() {
+        for (List<Cell> cell : this.cells) {
+            if (cell.get(0).isFree()) {
+                return true;
+            }
+        }
         return false;
     }
 
@@ -57,8 +67,8 @@ public class Board {
     }
 
     public Cell getCell(Position position) {
-        return cells.get(position.getPositionY())
-                .get(position.getPositionX());
+        return cells.get(position.getPositionY() - 1)
+                .get(position.getPositionX() - 1);
     }
 
     public List<List<Cell>> getAllCells() {
@@ -91,9 +101,9 @@ public class Board {
 
     private List<List<Cell>> createAvailableCells(int height, int width) {
         List<List<Cell>> cells = new ArrayList<>();
-        for (int y = 0; y < height; y++) {
+        for (int y = 1; y <= height; y++) {
             List<Cell> rowX = new ArrayList<>();
-            for (int x = 0; x < width; x++) {
+            for (int x = 1; x <= width; x++) {
                 rowX.add(new Cell(Position.of(x, y)));
             }
             cells.add(rowX);
