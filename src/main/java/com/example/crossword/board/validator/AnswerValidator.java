@@ -100,9 +100,9 @@ public final class AnswerValidator {
         if (!answer.getOrientation().isHorizontal()) {
             List<Letter> letters = answer.getLetters();
             if (!letters.isEmpty()) {
-                int firstYPosition = letters.get(0).getPosition().getPositionX();
+                int firstLetterPositionX = getFirstLetterPositionX(letters);
                 for (Letter letter : letters) {
-                    if (letter.getPosition().getPositionX() != firstYPosition) {
+                    if (letter.getPosition().getPositionX() != firstLetterPositionX) {
                         throw new IllegalArgumentException("Invalid letter position: " + letter.getPosition() + " for orientation: " + answer.getOrientation());
                     }
                 }
@@ -114,13 +114,21 @@ public final class AnswerValidator {
         if (answer.getOrientation().isHorizontal()) {
             List<Letter> letters = answer.getLetters();
             if (!letters.isEmpty()) {
-                int firstYPosition = letters.get(0).getPosition().getPositionY();
+                int firstLetterPositionY = getFirstLetterPositionY(letters);
                 for (Letter letter : letters) {
-                    if (letter.getPosition().getPositionY() != firstYPosition) {
+                    if (letter.getPosition().getPositionY() != firstLetterPositionY) {
                         throw new IllegalArgumentException("Invalid letter position: " + letter.getPosition() + " for orientation: " + answer.getOrientation());
                     }
                 }
             }
         }
+    }
+
+    private static int getFirstLetterPositionX(List<Letter> letters) {
+        return letters.get(0).getPosition().getPositionX();
+    }
+
+    private static int getFirstLetterPositionY(List<Letter> letters) {
+        return letters.get(0).getPosition().getPositionY();
     }
 }
