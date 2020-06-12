@@ -14,4 +14,6 @@ public interface WordService {
     long size();
 
     Optional<WordEntity> findByWord(String word);
+
+    Optional<WordEntity> findByLength(int length);
 }

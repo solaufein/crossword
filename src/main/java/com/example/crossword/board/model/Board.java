@@ -1,11 +1,11 @@
 package com.example.crossword.board.model;
 
+import com.example.crossword.utils.RandomUtils;
 import lombok.EqualsAndHashCode;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.Random;
 import java.util.stream.Collectors;
 
 @EqualsAndHashCode
@@ -22,6 +22,11 @@ public class Board {
         this.width = width;
         this.height = height;
         this.cells = createAvailableCells(height, width);
+    }
+
+    public int getQuestionLength() {
+        //todo
+        return 0;
     }
 
     public boolean canPlace(Answer answer) {
@@ -43,9 +48,8 @@ public class Board {
     }
 
     public Cell getRandomCellOnTop() {
-        Random random = new Random();
         List<Cell> cellsOnTop = this.cells.get(0);
-        int positionX = random.nextInt(cellsOnTop.size());
+        int positionX = RandomUtils.getRandom(cellsOnTop.size());
         return cellsOnTop.get(positionX);
     }
 
@@ -64,13 +68,13 @@ public class Board {
         if (set == null) {
             throw new IllegalArgumentException("cannot add cell - previous element not found");
         } else {
-            if (!set.isReserved()) {
+            if (!set.isEmpty()) {
                 throw new IllegalArgumentException("cannot add cell - trying to replace cell which was not free: " + set + ", " + set.getPosition());
             }
         }
     }
 
-    public void putCells(List<Cell> cells) {
+    public void putCells(List<? extends Cell> cells) {
         cells.forEach(this::putCell);
     }
 
@@ -79,7 +83,7 @@ public class Board {
                 .get(position.getPositionX() - 1);
     }
 
-    public List<List<Cell>> getAllCells() {
+    public List<List<Cell>> getCells() {
         return new ArrayList<>(cells);
     }
 

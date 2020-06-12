@@ -12,8 +12,7 @@ class BoardUtilsTest {
     @Test
     void getPositionsForVertical() {
         Answer answer = Answer.AnswerBuilder.anAnswer()
-                .withOrientation(Orientation.VERTICAL)
-                .withQuestion(new Question(1L, "What?", Position.of(1, 3), Arrow.DOWN_ON_MIDDLE))
+                .withQuestion(new Question(1L, "What?", Position.of(1, 3), Orientation.VERTICAL, Arrow.DOWN_ON_MIDDLE))
                 .withLetters(Arrays.asList(
                         new Letter("A", Position.of(1, 4)),
                         new Letter("L", Position.of(1, 5)),
@@ -27,8 +26,7 @@ class BoardUtilsTest {
     @Test
     void getPositionsForVerticalAndArrowOnLeft() {
         Answer answer = Answer.AnswerBuilder.anAnswer()
-                .withOrientation(Orientation.VERTICAL)
-                .withQuestion(new Question(1L, "What?", Position.of(2, 3), Arrow.DOWN_ON_LEFT))
+                .withQuestion(new Question(1L, "What?", Position.of(2, 3), Orientation.VERTICAL, Arrow.DOWN_ON_LEFT))
                 .withLetters(Arrays.asList(
                         new Letter("A", Position.of(1, 3)),
                         new Letter("L", Position.of(1, 4)),
@@ -42,8 +40,7 @@ class BoardUtilsTest {
     @Test
     void getPositionsForVerticalAndArrowOnRight() {
         Answer answer = Answer.AnswerBuilder.anAnswer()
-                .withOrientation(Orientation.VERTICAL)
-                .withQuestion(new Question(1L, "What?", Position.of(2, 3), Arrow.DOWN_ON_RIGHT))
+                .withQuestion(new Question(1L, "What?", Position.of(2, 3), Orientation.VERTICAL, Arrow.DOWN_ON_RIGHT))
                 .withLetters(Arrays.asList(
                         new Letter("A", Position.of(3, 3)),
                         new Letter("L", Position.of(3, 4)),
@@ -57,8 +54,7 @@ class BoardUtilsTest {
     @Test
     void getPositionsForHorizontal() {
         Answer answer = Answer.AnswerBuilder.anAnswer()
-                .withOrientation(Orientation.HORIZONTAL)
-                .withQuestion(new Question(1L, "What?", Position.of(3, 1), Arrow.RIGHT_ON_MIDDLE))
+                .withQuestion(new Question(1L, "What?", Position.of(3, 1), Orientation.HORIZONTAL, Arrow.RIGHT_ON_MIDDLE))
                 .withLetters(Arrays.asList(
                         new Letter("A", Position.of(4, 1)),
                         new Letter("L", Position.of(5, 1)),
@@ -72,8 +68,7 @@ class BoardUtilsTest {
     @Test
     void getPositionsForHorizontalAndArrowOnUpperRight() {
         Answer answer = Answer.AnswerBuilder.anAnswer()
-                .withOrientation(Orientation.HORIZONTAL)
-                .withQuestion(new Question(1L, "What?", Position.of(3, 2), Arrow.RIGHT_ON_TOP))
+                .withQuestion(new Question(1L, "What?", Position.of(3, 2), Orientation.HORIZONTAL, Arrow.RIGHT_ON_TOP))
                 .withLetters(Arrays.asList(
                         new Letter("A", Position.of(3, 1)),
                         new Letter("L", Position.of(4, 1)),
@@ -87,8 +82,7 @@ class BoardUtilsTest {
     @Test
     void getPositionsForHorizontalAndArrowOnLowerRight() {
         Answer answer = Answer.AnswerBuilder.anAnswer()
-                .withOrientation(Orientation.HORIZONTAL)
-                .withQuestion(new Question(1L, "What?", Position.of(3, 2), Arrow.RIGHT_ON_BOTTOM))
+                .withQuestion(new Question(1L, "What?", Position.of(3, 2), Orientation.HORIZONTAL, Arrow.RIGHT_ON_BOTTOM))
                 .withLetters(Arrays.asList(
                         new Letter("A", Position.of(3, 3)),
                         new Letter("L", Position.of(4, 3)),

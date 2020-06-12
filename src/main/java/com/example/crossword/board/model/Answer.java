@@ -13,12 +13,10 @@ public class Answer {
 
     Question question;
     List<Letter> letters;
-    Orientation orientation;
 
-    private Answer(Question question, List<Letter> letters, Orientation orientation) {
+    private Answer(Question question, List<Letter> letters) {
         this.question = question;
         this.letters = letters;
-        this.orientation = orientation;
     }
 
     public Position getFirstLetterPosition() {
@@ -41,7 +39,6 @@ public class Answer {
     public static final class AnswerBuilder {
         private Question question;
         private List<Letter> letters;
-        private Orientation orientation;
 
         private AnswerBuilder() {
         }
@@ -60,19 +57,14 @@ public class Answer {
             return this;
         }
 
-        public AnswerBuilder withOrientation(Orientation orientation) {
-            this.orientation = orientation;
-            return this;
-        }
-
         public Answer build() {
-            return new Answer(question, letters, orientation);
+            return new Answer(question, letters);
         }
 
     }
 
     @Override
     public String toString() {
-        return question + " (" + orientation + ") - " + letters.stream().map(Letter::getValue).collect(Collectors.joining());
+        return question + " (" + question.getOrientation() + ") - " + letters.stream().map(Letter::getValue).collect(Collectors.joining());
     }
 }

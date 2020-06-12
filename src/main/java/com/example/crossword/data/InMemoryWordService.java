@@ -1,6 +1,7 @@
 package com.example.crossword.data;
 
 import com.example.crossword.data.model.WordEntity;
+import com.example.crossword.utils.RandomUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -44,6 +45,13 @@ public class InMemoryWordService implements WordService {
                 .stream()
                 .filter(wordEntity -> Objects.equals(wordEntity.getWord(), word))
                 .findAny();
+    }
+
+    @Override
+    public Optional<WordEntity> findByLength(int length) {
+        List<WordEntity> words = wordEntitiesPerLettersCount.getOrDefault(length, new ArrayList<>());
+        WordEntity word = words.get(RandomUtils.getRandom(words.size()));
+        return Optional.ofNullable(word);
     }
 
     private void assignWordId(AtomicLong idGenerator, WordEntity wordEntity) {

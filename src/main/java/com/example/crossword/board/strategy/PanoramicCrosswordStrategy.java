@@ -1,27 +1,26 @@
-package com.example.crossword.board.generator;
+package com.example.crossword.board.strategy;
 
+import com.example.crossword.board.generator.AnswerGenerator;
+import com.example.crossword.board.generator.QuestionGenerator;
 import com.example.crossword.board.model.Answer;
 import com.example.crossword.board.model.Board;
 import com.example.crossword.board.model.Question;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
 
-@Slf4j
 @RequiredArgsConstructor
-public class CrosswordGeneratorTemplate {
+public class PanoramicCrosswordStrategy implements CrosswordStrategy {
 
     private final QuestionGenerator questionGenerator;
     private final AnswerGenerator answerGenerator;
 
-    public void createCrossword(String title, int height, int width) {
-        Board board = new Board(title, width, height);
-
+    @Override
+    public void generate(Board board) {
         //todo:
         List<Question> questionsOnTop = questionGenerator.generateOnTop(board);
         for (Question question : questionsOnTop) {
-            Answer answer = answerGenerator.findAnswer(question);
+            Answer answer = answerGenerator.findAnswer(question, board.getQuestionLength());
             boolean wasPlaced = tryPlaceOnBoard(answer, board);
             if (wasPlaced) {
 
@@ -32,7 +31,7 @@ public class CrosswordGeneratorTemplate {
 
         List<Question> questionsOnLeft = questionGenerator.generateOnLeft(board);
         for (Question question : questionsOnLeft) {
-            Answer answer = answerGenerator.findAnswer(question);
+            Answer answer = answerGenerator.findAnswer(question, board.getQuestionLength());
             boolean wasPlaced = tryPlaceOnBoard(answer, board);
             if (wasPlaced) {
 
@@ -40,7 +39,10 @@ public class CrosswordGeneratorTemplate {
 
             }
         }
+    }
 
+    private int getQuestionLength() {
+        return 0;
     }
 
     private boolean tryPlaceOnBoard(Answer answer, Board board) {
@@ -50,5 +52,4 @@ public class CrosswordGeneratorTemplate {
         }
         return false;
     }
-
 }

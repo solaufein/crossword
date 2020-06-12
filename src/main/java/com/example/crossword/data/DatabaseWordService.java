@@ -56,4 +56,9 @@ public class DatabaseWordService implements WordService {
         return wordRepository.findByWord(word);
     }
 
+    @Override
+    public Optional<WordEntity> findByLength(int length) {
+        throw new IllegalArgumentException("Not implemented");
+    }
+
 }

@@ -8,15 +8,18 @@ import lombok.Getter;
 public class Question extends Cell {
 
     private final Arrow arrow;
+    private final Orientation orientation;
     private long id;
 
-    public Question(Position position, Arrow arrow) {
+    public Question(Position position, Orientation orientation, Arrow arrow) {
         super(position);
+        this.orientation = orientation;
         this.arrow = arrow;
     }
 
-    public Question(long id, String value, Position position, Arrow arrow) {
+    public Question(long id, String value, Position position, Orientation orientation, Arrow arrow) {
         super(position, value);
+        this.orientation = orientation;
         this.arrow = arrow;
         this.id = id;
     }
