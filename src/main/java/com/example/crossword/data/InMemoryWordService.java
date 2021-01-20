@@ -50,6 +50,9 @@ public class InMemoryWordService implements WordService {
     @Override
     public Optional<WordEntity> findByLength(int length) {
         List<WordEntity> words = wordEntitiesPerLettersCount.getOrDefault(length, new ArrayList<>());
+        if (words.isEmpty()) {
+            return Optional.empty();
+        }
         WordEntity word = words.get(RandomUtils.getRandom(words.size()));
         return Optional.ofNullable(word);
     }

@@ -2,6 +2,7 @@ package com.example.crossword.data;
 
 import com.example.crossword.data.model.WordEntity;
 import com.example.crossword.data.model.WordRepository;
+import com.example.crossword.utils.RandomUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -58,7 +59,11 @@ public class DatabaseWordService implements WordService {
 
     @Override
     public Optional<WordEntity> findByLength(int length) {
-        throw new IllegalArgumentException("Not implemented");
+        List<WordEntity> wordsByTotalLetters = wordRepository.findAllByTotalLetters(length);
+        if (!wordsByTotalLetters.isEmpty()) {
+            return Optional.ofNullable(wordsByTotalLetters.get(RandomUtils.getRandom(wordsByTotalLetters.size())));
+        }
+        return Optional.empty();
     }
 
 }

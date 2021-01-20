@@ -1,5 +1,6 @@
 package com.example.crossword.board;
 
+import com.example.crossword.board.model.Board;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,6 +13,8 @@ class CrosswordServiceTest {
 
     @Test
     void create() {
-        crosswordService.create();
+        Board result = crosswordService.create();
+
+        System.out.println("result board: " + result);
     }
 }

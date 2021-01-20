@@ -20,7 +20,7 @@ public class DictionaryReader {
 
     private final String dictionaryFilePath;
 
-    public DictionaryReader(@Value("${crossword.dictionary.file-path:data/dictionary-small.xml}") String dictionaryFilePath) {
+    public DictionaryReader(@Value("${crossword.dictionary.file-path:data/dictionary.xml}") String dictionaryFilePath) {
         this.dictionaryFilePath = dictionaryFilePath;
     }
 

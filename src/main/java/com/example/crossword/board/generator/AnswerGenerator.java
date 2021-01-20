@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Slf4j
 @Component
@@ -19,24 +20,31 @@ public class AnswerGenerator {
 
     private final WordService wordService;
 
-    public AnswerGenerator(@Qualifier("inMemoryWordService") WordService wordService) {
+    public AnswerGenerator(
+//            @Qualifier("inMemoryWordService") WordService wordService
+            @Qualifier("databaseWordService") WordService wordService
+    ) {
         this.wordService = wordService;
     }
 
-    public Answer findAnswer(Question question, int length) {
-        WordEntity wordEntity = wordService.findByLength(length).orElseThrow();
+    public Optional<Answer> findAnswer(Question question, int length) {
+        return wordService.findByLength(length)
+                .flatMap(wordEntity -> createAnswer(question, wordEntity));
+    }
+
+    private Optional<Answer> createAnswer(Question question, WordEntity wordEntity) {
         updateQuestion(question, wordEntity.getId(), wordEntity.getQuestion());
         List<Letter> letters = createLetters(wordEntity, question);
 
-        return Answer.AnswerBuilder.anAnswer()
+        return Optional.of(Answer.AnswerBuilder.anAnswer()
                 .withQuestion(question)
                 .withLetters(letters)
-                .build();
+                .build());
     }
 
-    private void updateQuestion(Question question, Long id, String question2) {
+    private void updateQuestion(Question question, Long id, String value) {
         question.setId(id);
-        question.setValue(question2);
+        question.setValue(value);
         question.setReserved();
     }
 

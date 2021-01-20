@@ -2,12 +2,15 @@ package com.example.crossword.board.model;
 
 import com.example.crossword.utils.RandomUtils;
 import lombok.EqualsAndHashCode;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
+@Slf4j
 @EqualsAndHashCode
 public class Board {
 
@@ -21,21 +24,40 @@ public class Board {
         this.title = title;
         this.width = width;
         this.height = height;
-        this.cells = createAvailableCells(height, width);
+        this.cells = initAvailableCells(height, width);
     }
 
-    public int getQuestionLength() {
-        //todo
-        return 0;
+    public boolean canPlaceAnswer(Answer answer) {
+        Orientation orientation = answer.getQuestion().getOrientation();
+
+        if (answers.contains(answer)) {
+            log.warn("board already contains this answer: {}", answer);
+            return false;
+        }
+
+        //todo: validations
+        switch (orientation) {
+            case HORIZONTAL:
+                if (answer.getLastLetterPosition().getPositionX() > width) {
+                    log.warn("answer: {} last letter X position: {} is outside of board width: {}", answer, answer.getLastLetterPosition().getPositionX(), width);
+                    return false;
+                }
+                break;
+            case VERTICAL:
+                if (answer.getLastLetterPosition().getPositionY() > height) {
+                    log.warn("answer: {} last letter Y position: {} is outside of board height: {}", answer, answer.getLastLetterPosition().getPositionX(), width);
+                    return false;
+                }
+                break;
+        }
+
+        return true;
     }
 
-    public boolean canPlace(Answer answer) {
-        //todo
-        return false;
-    }
-
-    public void place(Answer answer) {
-        //todo
+    public void placeAnswer(Answer answer) {
+        putCell(answer.getQuestion());
+        addAnswer(answer);
+        putCells(answer.getLetters());
     }
 
     public boolean hasFreeCellOnTop() {
@@ -64,12 +86,12 @@ public class Board {
 
     public void putCell(Cell cell) {
         List<Cell> row = this.cells.get(cell.getPosition().getPositionY() - 1);
-        Cell set = row.set(cell.getPosition().getPositionX() - 1, cell);
-        if (set == null) {
+        Cell previousCell = row.set(cell.getPosition().getPositionX() - 1, cell);
+        if (previousCell == null) {
             throw new IllegalArgumentException("cannot add cell - previous element not found");
         } else {
-            if (!set.isEmpty()) {
-                throw new IllegalArgumentException("cannot add cell - trying to replace cell which was not free: " + set + ", " + set.getPosition());
+            if (!previousCell.isEmpty() && !Objects.equals(previousCell.getValue(), cell.getValue())) {
+                throw new IllegalArgumentException("cannot add cell - trying to replace cell which was not free: " + previousCell + ", " + previousCell.getPosition());
             }
         }
     }
@@ -111,7 +133,7 @@ public class Board {
         return height;
     }
 
-    private List<List<Cell>> createAvailableCells(int height, int width) {
+    private List<List<Cell>> initAvailableCells(int height, int width) {
         List<List<Cell>> cells = new ArrayList<>();
         for (int y = 1; y <= height; y++) {
             List<Cell> rowX = new ArrayList<>();

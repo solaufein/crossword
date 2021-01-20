@@ -23,7 +23,7 @@ public class WordEntity {
     @Column
     private String word;
 
-    @Column(length = 500)
+    @Column(length = 1000)
     private String question;
 
     @Column(name = "first_letter", length = 1)

@@ -5,6 +5,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 @EqualsAndHashCode
@@ -25,6 +26,13 @@ public class Answer {
 
     public Position getLastLetterPosition() {
         return BoardUtils.getLastLetterPosition(this.getLetters());
+    }
+
+    public Letter getLetterOnPosition(Position position) {
+        return letters.stream()
+                .filter(letter -> Objects.equals(letter.getPosition(), position))
+                .findFirst()
+                .orElse(null);
     }
 
     public int getCount() {
@@ -65,6 +73,10 @@ public class Answer {
 
     @Override
     public String toString() {
-        return question + " (" + question.getOrientation() + ") - " + letters.stream().map(Letter::getValue).collect(Collectors.joining());
+        return question +
+                " (" + question.getOrientation() + ") " +
+                question.getPosition() + " - " +
+                letters.stream().map(Letter::getValue).collect(Collectors.joining()) +
+                " (" + question.getValue() + ")";
     }
 }

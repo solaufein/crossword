@@ -20,7 +20,7 @@ class AnswerGeneratorTest {
         WordService wordService = mock(WordService.class);
         when(wordService.findByLength(5)).thenReturn(Optional.of(new WordEntity(1L, "HOUSE", "Where do you live in?", "H", 5)));
 
-        Answer answer = new AnswerGenerator(wordService).findAnswer(new Question(Position.of(4, 2), Orientation.VERTICAL, Arrow.DOWN_ON_MIDDLE), 5);
+        Answer answer = new AnswerGenerator(wordService).findAnswer(new Question(Position.of(4, 2), Orientation.VERTICAL, Arrow.DOWN_ON_MIDDLE), 5).orElseThrow();
 
         assertThat(answer.getLetters()).containsExactly(
                 new Letter("H", Position.of(4, 3)),
@@ -39,7 +39,7 @@ class AnswerGeneratorTest {
         WordService wordService = mock(WordService.class);
         when(wordService.findByLength(5)).thenReturn(Optional.of(new WordEntity(1L, "HOUSE", "Where do you live in?", "H", 5)));
 
-        Answer answer = new AnswerGenerator(wordService).findAnswer(new Question(Position.of(4, 2), Orientation.HORIZONTAL, Arrow.RIGHT_ON_MIDDLE), 5);
+        Answer answer = new AnswerGenerator(wordService).findAnswer(new Question(Position.of(4, 2), Orientation.HORIZONTAL, Arrow.RIGHT_ON_MIDDLE), 5).orElseThrow();
 
         assertThat(answer.getLetters()).containsExactly(
                 new Letter("H", Position.of(5, 2)),

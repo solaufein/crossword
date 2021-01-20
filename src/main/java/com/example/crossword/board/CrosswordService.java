@@ -19,10 +19,13 @@ public class CrosswordService {
     private final AnswerGenerator answerGenerator;
     private final CrosswordGenerator crosswordGenerator;
 
-    public void create() {
+    public Board create() {
+        String title = "Sample crossword";
+        int height = 6;
+        int width = 12;
         CrosswordStrategy crosswordStrategy = new SimpleCrosswordStrategy(questionGenerator, answerGenerator);
-        Board board = crosswordGenerator.generate("Sample crossword", 10, 5, crosswordStrategy);
-        log.info("{}", board);
+
+        return crosswordGenerator.generate(title, height, width, crosswordStrategy);
     }
 }
 
