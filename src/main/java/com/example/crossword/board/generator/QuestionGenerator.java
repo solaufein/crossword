@@ -9,27 +9,29 @@ import org.springframework.stereotype.Component;
 @Component
 public class QuestionGenerator {
 
-    //todo: refactor class
-
-    public Question generateNext(Position position, Orientation orientation, Arrow arrow) {
-        return new Question(position, orientation, arrow);
+    public Question generateNextVertical(Position position) {
+        return new Question(position, Orientation.VERTICAL, Arrow.DOWN_ON_MIDDLE);
     }
 
-    public Position getNextQuestionPosition(Answer mainAnswer, int positionY) {
-        int mainAnswerPositionX = mainAnswer.getLetters().get(positionY - 2).getPosition().getPositionX();
-
-        return getNextQuestionPosition(mainAnswerPositionX, positionY);
+    public Question generateNextHorizontal(Position position) {
+        return new Question(position, Orientation.HORIZONTAL, Arrow.RIGHT_ON_MIDDLE);
     }
 
-    public Position getNextQuestionPosition(int mainAnswerPositionX, int positionY) {
-        if (mainAnswerPositionX == 1) {
-            return Position.of(1, 1);
+    public Position getNextHorizontalQuestionPosition(Answer mainAnswer, int positionY, int width) {
+        int mainAnswerPositionX = mainAnswer.getFirstLetterPosition().getPositionX();
+
+        if (mainAnswerPositionX == 2) {
+            return Position.of(1, positionY);
         }
 
-        int positionX = RandomUtils.getRandom(1, mainAnswerPositionX);
-        Position pos = Position.of(positionX, positionY);
-        log.info("next letter position: {}", pos);
-        return pos;
+        int positionX = RandomUtils.getRandom(1, mainAnswerPositionX + 1);
+        if (positionX + AnswerGenerator.MINIMUM_ANSWER_LENGTH > width) {
+            return getNextHorizontalQuestionPosition(mainAnswer, positionY, width);
+        } else {
+            Position pos = Position.of(positionX, positionY);
+            log.info("next question position: {}", pos);
+            return pos;
+        }
     }
 
 }

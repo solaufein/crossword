@@ -23,9 +23,17 @@ public final class RandomUtils {
      * @return random integer in given range
      */
     public static int getRandom(int min, int max) {
-        log.debug("get random for range: {}-{}", min, max);
+        if (min == max) {
+            log.warn("get random min == max == {} returned", min);
+            return min;
+        }
+
         OptionalInt first = RANDOM.ints(min, max).findFirst();
-        return first.isPresent() ? first.getAsInt() : min;
+        int result = first.isPresent() ? first.getAsInt() : min;
+
+        log.debug("get random for range: {}-{} returns: {}", min, max, result);
+
+        return result;
     }
 
 }

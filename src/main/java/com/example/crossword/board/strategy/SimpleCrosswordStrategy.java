@@ -7,14 +7,12 @@ import com.example.crossword.utils.RandomUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.Objects;
 import java.util.Optional;
 
 @Slf4j
 @RequiredArgsConstructor
 public class SimpleCrosswordStrategy implements CrosswordStrategy {
 
-    private static final int MINIMUM_ANSWER_LENGTH = 4;
     private final QuestionGenerator questionGenerator;
     private final AnswerGenerator answerGenerator;
 
@@ -29,8 +27,8 @@ public class SimpleCrosswordStrategy implements CrosswordStrategy {
     }
 
     private Answer generateMainAnswer(Board board) {
-        Position mainQuestionPosition = Position.of(RandomUtils.getRandom(1, board.getWidth()), 1);
-        Question mainQuestion = questionGenerator.generateNext(mainQuestionPosition, Orientation.VERTICAL, Arrow.DOWN_ON_MIDDLE);
+        Position mainQuestionPosition = Position.of(RandomUtils.getRandom(2, board.getWidth() + 1), 1);
+        Question mainQuestion = questionGenerator.generateNextVertical(mainQuestionPosition);
         Answer mainAnswer = answerGenerator.findAnswer(mainQuestion, board.getHeight() - 1).orElseThrow(() -> new IllegalArgumentException("Could not generate main question"));
         board.placeAnswer(mainAnswer);
 
@@ -44,9 +42,9 @@ public class SimpleCrosswordStrategy implements CrosswordStrategy {
         int width = board.getWidth();
         Question mainQuestion = mainAnswer.getQuestion();
 
-        Position nextQuestionPosition = questionGenerator.getNextQuestionPosition(mainAnswer, positionY);
-        Question nextQuestion = questionGenerator.generateNext(nextQuestionPosition, Orientation.HORIZONTAL, Arrow.RIGHT_ON_MIDDLE);
-        Optional<Answer> nextAnswerOptional = answerGenerator.findAnswer(nextQuestion, RandomUtils.getRandom(MINIMUM_ANSWER_LENGTH, width));
+        Position nextQuestionPosition = questionGenerator.getNextHorizontalQuestionPosition(mainAnswer, positionY, width);
+        Question nextQuestion = questionGenerator.generateNextHorizontal(nextQuestionPosition);
+        Optional<Answer> nextAnswerOptional = answerGenerator.findAnswer(nextQuestion, calculateAnswerLength(nextQuestion, width));
         if (nextAnswerOptional.isEmpty()) {
             generateNextAnswer(board, mainAnswer, positionY);
         } else {
@@ -56,7 +54,7 @@ public class SimpleCrosswordStrategy implements CrosswordStrategy {
                 Letter mainAnswerLetter = mainAnswer.getLetterOnPosition(mainAnswerLetterPosition);
                 Letter nextAnswerLetter = nextAnswer.getLetterOnPosition(mainAnswerLetterPosition);
 
-                if (Objects.equals(nextAnswerLetter, mainAnswerLetter)) {
+                if (isSameLetter(mainAnswerLetter, nextAnswerLetter)) {
                     if (board.canPlaceAnswer(nextAnswer)) {
                         board.placeAnswer(nextAnswer);
                         log.info(board.toString());
@@ -64,13 +62,28 @@ public class SimpleCrosswordStrategy implements CrosswordStrategy {
                         generateNextAnswer(board, mainAnswer, positionY);
                     }
                 } else {
-                    log.info("next answer did not match main answer letter");
+                    log.info("next answer letter: {} not match main answer letter: {} on position: {}", nextAnswerLetter, mainAnswerLetter, mainAnswerLetterPosition);
+                    log.debug("next answer: {}", nextAnswer);
                     generateNextAnswer(board, mainAnswer, positionY);
                 }
             } else {
                 generateNextAnswer(board, mainAnswer, positionY);
             }
         }
+    }
+
+    private int calculateAnswerLength(Question nextQuestion, int width) {
+        int questionPositionX = nextQuestion.getPosition().getPositionX();
+        int randomLength = RandomUtils.getRandom(AnswerGenerator.MINIMUM_ANSWER_LENGTH, width);
+        if (questionPositionX + randomLength > width) {
+            return calculateAnswerLength(nextQuestion, width);
+        } else {
+            return randomLength;
+        }
+    }
+
+    private boolean isSameLetter(Letter mainAnswerLetter, Letter nextAnswerLetter) {
+        return nextAnswerLetter != null && mainAnswerLetter.getValue().equalsIgnoreCase(nextAnswerLetter.getValue());
     }
 
 }

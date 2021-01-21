@@ -18,6 +18,7 @@ import java.util.Optional;
 @Component
 public class AnswerGenerator {
 
+    public static final int MINIMUM_ANSWER_LENGTH = 4;
     private final WordService wordService;
 
     public AnswerGenerator(
