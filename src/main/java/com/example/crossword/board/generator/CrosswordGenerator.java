@@ -11,11 +11,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class CrosswordGenerator {
 
-    public Board generate(String title, int height, int width, CrosswordStrategy crosswordStrategy) {
+    public Board generate(String title, int width, int height, CrosswordStrategy crosswordStrategy) {
         Board board = new Board(title, width, height);
         log.info("initial board: {}", board);
 
         crosswordStrategy.generate(board);
+        log.info("final board: {}", board);
 
         return board;
     }

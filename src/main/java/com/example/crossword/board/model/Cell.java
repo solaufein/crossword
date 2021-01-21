@@ -43,6 +43,14 @@ public class Cell {
         this.value = value;
     }
 
+    public int getPositionX() {
+        return position.getPositionX();
+    }
+
+    public int getPositionY() {
+        return position.getPositionY();
+    }
+
     @Override
     public String toString() {
         return "[  " + value + "  ]";

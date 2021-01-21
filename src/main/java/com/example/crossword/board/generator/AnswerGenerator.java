@@ -28,7 +28,7 @@ public class AnswerGenerator {
         this.wordService = wordService;
     }
 
-    public Optional<Answer> findAnswer(Question question, int length) {
+    public Optional<Answer> generateAnswer(Question question, int length) {
         return wordService.findByLength(length)
                 .flatMap(wordEntity -> createAnswer(question, wordEntity));
     }

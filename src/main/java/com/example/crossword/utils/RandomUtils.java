@@ -13,6 +13,10 @@ public final class RandomUtils {
     private RandomUtils() {
     }
 
+    /**
+     * @param max - exclusive
+     * @return random integer in given range <0, max)
+     */
     public static int getRandom(int max) {
         return getRandom(0, max);
     }
@@ -20,7 +24,7 @@ public final class RandomUtils {
     /**
      * @param min - inclusive
      * @param max - exclusive
-     * @return random integer in given range
+     * @return random integer in given range <min, max)
      */
     public static int getRandom(int min, int max) {
         if (min == max) {

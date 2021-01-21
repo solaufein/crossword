@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 @SpringBootTest
 class CrosswordServiceTest {
 
@@ -13,8 +15,13 @@ class CrosswordServiceTest {
 
     @Test
     void create() {
-        Board result = crosswordService.create();
+        String title = "Simple crossword title";
+        int width = 12;
+        int height = 6;
 
-        System.out.println("result board: " + result);
+        Board result = crosswordService.create(title, width, height);
+
+        assertNotNull(result);
     }
+
 }
