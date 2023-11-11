@@ -22,8 +22,8 @@ public class AnswerGenerator {
     private final WordService wordService;
 
     public AnswerGenerator(
-//            @Qualifier("inMemoryWordService") WordService wordService
-            @Qualifier("databaseWordService") WordService wordService
+            @Qualifier("inMemoryWordService") WordService wordService
+//todo:            @Qualifier("databaseWordService") WordService wordService
     ) {
         this.wordService = wordService;
     }

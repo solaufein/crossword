@@ -1,5 +1,6 @@
 package com.example.crossword.data.model;
 
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
@@ -13,5 +14,6 @@ public interface WordRepository extends PagingAndSortingRepository<WordEntity, L
 
     List<WordEntity> findAllByTotalLetters(int totalLetters);
 
+    @Query("select count(*) from WordEntity e")
     long count();
 }

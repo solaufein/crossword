@@ -20,8 +20,8 @@ public class WordImporter implements CommandLineRunner {
     private final DictionaryReader dictionaryReader;
 
     public WordImporter(
-            @Qualifier("databaseWordService") WordService wordService,
-//            @Qualifier("inMemoryWordService") WordService wordService,
+//todo:            @Qualifier("databaseWordService") WordService wordService,
+            @Qualifier("inMemoryWordService") WordService wordService,
             DictionaryReader dictionaryReader
     ) {
         this.wordService = wordService;
