@@ -1,6 +1,7 @@
 package com.example.crossword.board;
 
 import com.example.crossword.board.model.Board;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,6 +15,7 @@ class CrosswordServiceTest {
     private CrosswordService crosswordService;
 
     @Test
+    @Disabled   //todo: run on demand with big dictionary
     void create() {
         String title = "Simple crossword title";
         int width = 12;

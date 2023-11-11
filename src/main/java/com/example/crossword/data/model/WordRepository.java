@@ -13,4 +13,5 @@ public interface WordRepository extends PagingAndSortingRepository<WordEntity, L
 
     List<WordEntity> findAllByTotalLetters(int totalLetters);
 
+    long count();
 }

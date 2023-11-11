@@ -3,14 +3,14 @@ package com.example.crossword.data;
 import com.example.crossword.data.model.WordEntity;
 import com.example.crossword.data.model.WordRepository;
 import com.example.crossword.utils.RandomUtils;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 import java.util.List;
 import java.util.Optional;
 

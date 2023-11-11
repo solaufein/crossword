@@ -2,7 +2,7 @@ package com.example.crossword.data.model;
 
 import lombok.*;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "word", schema = "crossword")
